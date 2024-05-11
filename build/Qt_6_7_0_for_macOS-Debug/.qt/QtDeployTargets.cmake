@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_Course_Management_System_FILE /Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/Course_Management_System.app/Contents/MacOS/Course_Management_System)
