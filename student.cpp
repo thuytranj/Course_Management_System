@@ -96,3 +96,19 @@ QVector<student> readListStudent(const QString &path)
     }
     return list;
 }
+
+bool cmpIdStudent(student a, student b)
+{
+    return a.getIdSudent()<b.getIdSudent();
+}
+
+bool validLogin(const QString& name, const QString& pass, QVector<student> list, int& pos)
+{
+    for (int i=0;i<list.size();i++) {
+        if (name==list[i].getStudentAccount().getUsername() && pass==list[i].getStudentAccount().getPassword()){
+            pos=i;
+            return true;
+        }
+    }
+    return false;
+}

@@ -8,9 +8,13 @@ public:
         username=_username;
         password=_password;
     }
+
     void setUsername (const QString _username);
+
     void setPassword (const QString _password);
+
     QString getUsername ();
+
     QString getPassword ();
 
 private:

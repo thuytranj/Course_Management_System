@@ -22,31 +22,57 @@ public:
         otherMark=_otherMark;
         listOfStudents=_listOfStudent;
     }
+
     void setIdCourse (const QString& _courseId);
+
     void setCourseName (const QString& _courseName);
+
     void setClassName (const QString& _className);
+
     void setTeacherName (const QString& _teacherName);
+
     void setDayOfWeek (const QString& _dateOfWeek);
+
     void setSession (const QString& _session);
+
     void setNumOfCredits (const int& credits);
+
     void setMaxStudent (const int& max);
+
     void setTotal (const double& _total);
+
     void setFinal (const double& _final);
+
     void setMid (const double& _mid);
+
     void setOtherMark (const double& _otherMark);
+
     void setListOfStudent (QVector<QString> _listOfStudent);
+
     QString getCourseId ();
+
     QString getCourseName();
+
     QString getClassName ();
+
     QString getTeacher();
+
     QString getDayOfWeek ();
+
     QString getSession ();
+
     int getNumOfCredits ();
+
     int getMaxStudent();
+
     double getTotal ();
+
     double getFinal ();
+
     double getMid();
+
     double getOtherMark();
+
     QVector<QString> getListOfStudent ();
 
 private:
@@ -55,5 +81,6 @@ private:
     double total, final, mid, otherMark;
     QVector<QString> listOfStudents;
 };
+
 QVector<QString> readCourseInSemester (const QString& path, QVector<course> &list);
 #endif // COURSE_H

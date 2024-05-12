@@ -21,12 +21,13 @@ void readClasses(const QString &path, QVector<Class> &list)
         QString lineData=stream.readLine().trimmed();
         QStringList data=lineData.split(";");
         int size= (data.at(0)).toInt();
+        QVector<student> listStudents;
         for (int i=0;i<size;i++) {
+            listStudents.clear();
             lineData=stream.readLine().trimmed();
             data=lineData.split(";");
             QString className=data.at(0);
             int cnt= (data.at(1)).toInt();
-            QVector<student> listStudents;
             for (int j=0;j<cnt;j++) {
                 lineData=stream.readLine().trimmed();
                 data=lineData.split(";");
@@ -46,7 +47,7 @@ void readClasses(const QString &path, QVector<Class> &list)
                 QVector<course> listCourses;
                 for (int k=0;k<numsCourse;k++) {
                     course tmp;
-                    tmp.setIdCourse(data.at(k+10));
+                    tmp.setClassName(data.at(k+10));
                     listCourses.append(tmp);
                 }
                 x.setListOfCourses(listCourses);
