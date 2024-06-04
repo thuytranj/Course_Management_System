@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-3f83826747dfa977b8c1.json",
+					"jsonFile" : "directory-.-Debug-1c3607152fb809bcf593.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Course_Management_System::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Course_Management_System-Debug-97045dfe7027cb650bc4.json",
+					"jsonFile" : "target-Course_Management_System-Debug-d52e94f21e5a5542c60a.json",
 					"name" : "Course_Management_System",
 					"projectIndex" : 0
 				},

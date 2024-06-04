@@ -17,8 +17,8 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>-20</x>
-      <y>-10</y>
+      <x>-40</x>
+      <y>-40</y>
       <width>871</width>
       <height>671</height>
      </rect>
@@ -1785,38 +1785,10 @@ QPushButton:Hover
         <string>Danh sách khoá học</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="listStudentInClass_2">
-       <property name="geometry">
-        <rect>
-         <x>170</x>
-         <y>50</y>
-         <width>131</width>
-         <height>32</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton{
-	border:none;
-	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
-}
-QPushButton:Hover
-{
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
-}</string>
-       </property>
-       <property name="text">
-        <string>Danh sách sinh viên</string>
-       </property>
-      </widget>
       <widget class="QPushButton" name="newSemester_2">
        <property name="geometry">
         <rect>
-         <x>460</x>
+         <x>310</x>
          <y>50</y>
          <width>111</width>
          <height>32</height>
@@ -1912,7 +1884,7 @@ font: 700 13pt &quot;Arial&quot;;</string>
       <widget class="QPushButton" name="newSemester_3">
        <property name="geometry">
         <rect>
-         <x>320</x>
+         <x>160</x>
          <y>50</y>
          <width>131</width>
          <height>32</height>
@@ -1941,11 +1913,14 @@ QPushButton:Hover
      <widget class="QStackedWidget" name="stackedWidget_3">
       <property name="geometry">
        <rect>
-        <x>160</x>
-        <y>110</y>
-        <width>641</width>
-        <height>481</height>
+        <x>170</x>
+        <y>120</y>
+        <width>631</width>
+        <height>501</height>
        </rect>
+      </property>
+      <property name="currentIndex">
+       <number>3</number>
       </property>
       <widget class="QWidget" name="page_9">
        <widget class="QTableWidget" name="tableCourse">
@@ -2055,7 +2030,7 @@ QHeaderView {
        <widget class="QLineEdit" name="className_2">
         <property name="geometry">
          <rect>
-          <x>110</x>
+          <x>60</x>
           <y>0</y>
           <width>113</width>
           <height>31</height>
@@ -2070,9 +2045,9 @@ background-color: rgb(255, 255, 255);</string>
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>10</y>
-          <width>91</width>
-          <height>21</height>
+          <y>0</y>
+          <width>41</width>
+          <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -2080,44 +2055,14 @@ background-color: rgb(255, 255, 255);</string>
 color: rgb(27, 27, 27);</string>
         </property>
         <property name="text">
-         <string>Nhập tên lớp</string>
+         <string>Lớp</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="findStudentInCourse">
+       <widget class="QPushButton" name="outputList">
         <property name="geometry">
          <rect>
-          <x>240</x>
+          <x>520</x>
           <y>0</y>
-          <width>71</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}
-QPushButton:Hover
-{
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
-        </property>
-        <property name="text">
-         <string>Tìm</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pushButton_2">
-        <property name="geometry">
-         <rect>
-          <x>530</x>
-          <y>1</y>
           <width>91</width>
           <height>31</height>
          </rect>
@@ -2140,7 +2085,7 @@ QPushButton:Hover
 }</string>
         </property>
         <property name="text">
-         <string>Xuất file</string>
+         <string> Xuất file</string>
         </property>
        </widget>
       </widget>
@@ -2209,8 +2154,8 @@ background-color: rgb(255, 255, 255);</string>
        <widget class="QWidget" name="widget_11" native="true">
         <property name="geometry">
          <rect>
-          <x>40</x>
-          <y>80</y>
+          <x>10</x>
+          <y>40</y>
           <width>551</width>
           <height>331</height>
          </rect>
@@ -2479,9 +2424,9 @@ background-color: rgb(241, 243, 243);
        <widget class="QPushButton" name="updateCourseInfo">
         <property name="geometry">
          <rect>
-          <x>340</x>
+          <x>300</x>
           <y>430</y>
-          <width>91</width>
+          <width>141</width>
           <height>31</height>
          </rect>
         </property>
@@ -2503,7 +2448,7 @@ QPushButton:Hover
 }</string>
         </property>
         <property name="text">
-         <string>Cập nhật</string>
+         <string>Cập nhật thông tin</string>
         </property>
        </widget>
        <widget class="QPushButton" name="addStudent">
@@ -2535,6 +2480,155 @@ QPushButton:Hover
         <property name="text">
          <string>Thêm sinh viên</string>
         </property>
+       </widget>
+       <widget class="QPushButton" name="listStudentInClass_2">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>0</y>
+          <width>151</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Danh sách sinh viên</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="importFile">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>430</y>
+          <width>101</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Cập nhật điểm</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="viewScoreBoard">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>430</y>
+          <width>131</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Xem bảng điểm</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_16">
+       <widget class="QTableWidget" name="scoreboard">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>21</y>
+          <width>611</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTableWidget {
+	gridline-color:black;
+	color: rgb(22, 23, 23);
+	border:none;
+}
+QHeaderView {
+	font: 700 14pt &quot;Arial&quot;;
+	color: rgb(27, 27, 27);
+	gridline-color:black;
+}</string>
+        </property>
+        <column>
+         <property name="text">
+          <string>MSSV</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Họ</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tên</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tổng kết</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cuối kì</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Giữa kì</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cộng</string>
+         </property>
+        </column>
        </widget>
       </widget>
      </widget>

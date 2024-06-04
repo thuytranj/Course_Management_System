@@ -89,27 +89,44 @@ course MainWindow::findCourse(const QString &name, QVector<course> list)
     return course ();
 }
 
-void MainWindow::setCourseForStudent(QVector<course> listCourse, QVector<Class> &listClass)
+void MainWindow::findIndexStudent(const QString &id, int& posClass, int& pos)
 {
-    for (int i=0;i<listClass.size();i++) {
-        QVector<student> listStudent=listClass[i].getListOfStudent();
-        for (int j=0;j<listStudent.size();j++) {
-            QVector<course> lst=listStudent[j].getListOfCourses();
-            for (int k=0;k<lst.size();k++) {
-                course x=findCourse (lst[k].getClassName(), listCourse);
-                lst[k].setIdCourse(x.getCourseId());
-                lst[k].setCourseName(x.getCourseName());
-                lst[k].setDayOfWeek(x.getDayOfWeek());
-                lst[k].setMaxStudent(x.getMaxStudent());
-                lst[k].setSession(x.getSession());
-                lst[k].setTeacherName(x.getTeacher());
-                lst[k].setNumOfCredits(x.getNumOfCredits());
-                lst[k].setListOfStudent(x.getListOfStudent());
-            }
-            listStudent[j].setListOfCourses(lst);
+    QVector<Class> list=getListOfClass();
+    for (int i=0;i<list.size();i++) {
+        QVector<student> listStudent=list[i].getListOfStudent();
+        std::sort (listStudent.begin(), listStudent.end(), cmpIdStudent);
+        if (listStudent[0].getIdSudent()==id) {
+            pos=0;
+            posClass=i;
+            return;
         }
-        listClass[i].setListOfStudent(listStudent);
+        else if (listStudent[listStudent.size()-1].getIdSudent()==id) {
+            pos=listStudent.size()-1;
+            posClass=i;
+            return;
+        }
+        else if (listStudent[0].getIdSudent()<id && listStudent[listStudent.size()-1].getIdSudent()>id) {
+            int l=0, r=listStudent.size()-1;
+            while (l<=r) {
+                int m=(l+r)/2;
+                if (listStudent[m].getIdSudent()==id) {
+                    pos=m;
+                    posClass=i;
+                    return;
+                }
+                else if (listStudent[m].getIdSudent()<id) l=m+1;
+                else r=m-1;
+            }
+        }
     }
+}
+
+int MainWindow::findIndexCourse(const QString &className, QVector<course> list)
+{
+    for (int i=0;i<list.size();i++) {
+        if (className==list[i].getClassName()) return i;
+    }
+    return -1;
 }
 
 MainWindow::MainWindow(QWidget *parent)
@@ -123,7 +140,6 @@ MainWindow::MainWindow(QWidget *parent)
     readClasses ("/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/database/classes.csv", classInSemester);
     QVector<course> courseInSemester;
     QVector<QString> semester = readCourseInSemester("/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/database/semester.csv", courseInSemester);
-    //setCourseForStudent(courseInSemester, classInSemester);
     setListOfClass(classInSemester);
     setListOfCourse(courseInSemester);
     setKindOfSemester(semester[0]);
@@ -403,16 +419,13 @@ student MainWindow::findStudent(const QString &id)
 void MainWindow::on_listStudentInClass_2_clicked()
 {
     ui->stackedWidget_3->setCurrentIndex(1);
+    ui->className_2->setText(ui->className_3->text());
     ui->tableStudenInCourse->setColumnWidth(0, 100);
     ui->tableStudenInCourse->setColumnWidth(1, 200);
     ui->tableStudenInCourse->setColumnWidth(2, 100);
     ui->tableStudenInCourse->setColumnWidth(3, 100);
     ui->tableStudenInCourse->setColumnWidth(4, 100);
-}
-
-void MainWindow::on_findStudentInCourse_clicked()
-{
-    QString name=ui->className_2->text();
+    QString name=ui->className_3->text();
     QVector<course> listCourse=getListOfCourse();
     for (int i=0;i<listCourse.size();i++) {
         if (name==listCourse[i].getClassName()) {
@@ -431,7 +444,6 @@ void MainWindow::on_findStudentInCourse_clicked()
     }
     QMessageBox::information(this, "Khoá học", "Không tồn tại khoá học này trong học kì!");
 }
-
 
 void MainWindow::on_newSemester_3_clicked()
 {
@@ -531,4 +543,97 @@ void MainWindow::on_schedule_clicked()
 }
 
 
+
+
+void MainWindow::on_outputList_clicked()
+{
+    QString folderPath = QFileDialog::getExistingDirectory(this, "Select Folder", QString(), QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
+    QString name=ui->className_3->text();
+    QVector<course> listCourse=getListOfCourse();
+    QString filePath=folderPath+"/"+name+".csv";
+    QFile file (filePath);
+    if (file.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
+        QTextStream stream (&file);
+        for (int i=0;i<listCourse.size();i++){
+            if (name==listCourse[i].getClassName()) {
+                QVector<QString> list=listCourse[i].getListOfStudent();
+                for (int j=0;j<list.size();j++) {
+                    student x=findStudent(list[j]);
+                    stream<<x.getIdSudent()<<";"
+                           <<x.getFirstName()<<";"
+                           <<x.getLastName()<<";"
+                           <<x.getGender()<<";"
+                           <<x.getDateOfBirth()<<";"
+                           <<x.getSocialId()<<"\n";
+                }
+                break;
+            }
+        }
+    }
+    file.close();
+}
+
+
+
+void MainWindow::on_importFile_clicked()
+{
+    QString fileName=QFileDialog::getOpenFileName(this, "Open a file", QDir::homePath());
+    QFile file (fileName);
+    if (file.open(QIODevice::ReadOnly)){
+        QString className=ui->className_3->text();
+        QTextStream stream(&file);
+        QString lineData;
+        QVector<Class> list=getListOfClass();
+
+        while (!file.atEnd()) {
+            lineData=stream.readLine().trimmed();
+            QStringList data=lineData.split(";");
+            QString id=data.at(1);
+            int posClass=-1, pos=-1;
+            findIndexStudent(id, posClass, pos);
+            if (posClass!=-1 && pos!=-1) {
+                int posCourse = findIndexCourse(className, list[posClass].getListOfStudent()[pos].getListOfCourses());
+                if (posCourse!=-1) {
+                    list[posClass].getListOfStudent()[pos].getListOfCourses()[posCourse].setTotal(data.at(4).toDouble());
+                    list[posClass].getListOfStudent()[pos].getListOfCourses()[posCourse].setFinal(data.at(5).toDouble());
+                    list[posClass].getListOfStudent()[pos].getListOfCourses()[posCourse].setMid(data.at(6).toDouble());
+                    list[posClass].getListOfStudent()[pos].getListOfCourses()[posCourse].setOtherMark(data.at(7).toDouble());
+                }
+            }
+
+        }
+
+        file.close();
+        QMessageBox::information(this, "Cập nhật", "Cập nhật điểm thành công!");
+    }
+}
+
+
+void MainWindow::on_viewScoreBoard_clicked()
+{
+    QString className=ui->className_3->text();
+    course x=findCourse (className, getListOfCourse());
+    ui->stackedWidget_3->setCurrentIndex(3);
+    ui->scoreboard->setColumnWidth(0, 100);
+    ui->scoreboard->setColumnWidth(1, 200);
+    ui->scoreboard->setColumnWidth(2, 100);
+    ui->scoreboard->setColumnWidth(3, 100);
+    ui->scoreboard->setColumnWidth(4, 100);
+    ui->scoreboard->setColumnWidth(5, 100);
+    ui->scoreboard->setColumnWidth(6, 100);
+
+    QVector<QString> list=x.getListOfStudent();
+    for (int i=0;i<list.size();i++) {
+        student stu=findStudent(list[i]);
+        int pos=findIndexCourse(className, stu.getListOfCourses());
+
+        ui->scoreboard->setItem(i, 0, new QTableWidgetItem(stu.getIdSudent()));
+        ui->scoreboard->setItem(i, 1, new QTableWidgetItem(stu.getFirstName()));
+        ui->scoreboard->setItem(i, 2, new QTableWidgetItem(stu.getLastName()));
+        ui->scoreboard->setItem(i, 3, new QTableWidgetItem(stu.getListOfCourses()[pos].getTotal()));
+        ui->scoreboard->setItem(i, 4, new QTableWidgetItem(stu.getListOfCourses()[pos].getFinal()));
+        ui->scoreboard->setItem(i, 5, new QTableWidgetItem(stu.getListOfCourses()[pos].getMid()));
+        ui->scoreboard->setItem(i, 6, new QTableWidgetItem(stu.getListOfCourses()[pos].getOtherMark()));
+    }
+}
 

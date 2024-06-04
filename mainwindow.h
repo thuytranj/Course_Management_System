@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFileDialog>
+#include <QDir>
 #include "teacherinfo.h"
 #include "class.h"
 #include "course.h"
@@ -68,7 +70,9 @@ public:
 
     course findCourse (const QString& name, QVector<course> list);
 
-    void setCourseForStudent (QVector<course> listCourse, QVector<Class> &listClass);
+    void findIndexStudent (const QString& id, int& posClass, int& pos);
+
+    int findIndexCourse (const QString& className, QVector<course> list);
 
 private slots:
     void on_teacher_clicked();
@@ -117,8 +121,6 @@ private slots:
 
     void on_listStudentInClass_2_clicked();
 
-    void on_findStudentInCourse_clicked();
-
     void on_newSemester_3_clicked();
 
     void on_findCourse_clicked();
@@ -132,6 +134,13 @@ private slots:
     void on_logOut_5_clicked();
 
     void on_schedule_clicked();
+
+    void on_outputList_clicked();
+
+
+    void on_importFile_clicked();
+
+    void on_viewScoreBoard_clicked();
 
 private:
     Ui::MainWindow *ui;

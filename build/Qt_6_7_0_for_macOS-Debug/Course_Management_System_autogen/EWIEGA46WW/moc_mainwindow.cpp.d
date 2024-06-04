@@ -100,6 +100,7 @@
   /Users/thuytran/Documents/Course_Management_System/student.h \
   /Users/thuytran/Documents/Course_Management_System/teacherinfo.h \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QDeadlineTimer \
+  /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QDir \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QHash \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
@@ -395,7 +396,10 @@
   /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QFileDialog \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qfiledialog.h \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
