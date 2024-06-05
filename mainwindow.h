@@ -74,6 +74,10 @@ public:
 
     int findIndexCourse (const QString& className, QVector<course> list);
 
+    double gpa (student x);
+
+    int findIndexClass (const QString& nameClass, QVector<Class> list);
+
 private slots:
     void on_teacher_clicked();
 
@@ -143,6 +147,16 @@ private slots:
     void on_viewScoreBoard_clicked();
 
     void on_viewScoreboard_clicked();
+
+    void on_viewMore_clicked();
+
+    void on_viewStudentScoreboard_clicked();
+
+    void on_home_5_clicked();
+
+    void on_summary_clicked();
+
+    void on_changePassword_clicked();
 
 private:
     Ui::MainWindow *ui;

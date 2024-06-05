@@ -1367,6 +1367,9 @@ QPushButton:Hover
         <height>511</height>
        </rect>
       </property>
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
       <widget class="QWidget" name="page_6">
        <widget class="QTableWidget" name="table_class">
         <property name="geometry">
@@ -1599,10 +1602,10 @@ QHeaderView {
          </property>
         </column>
        </widget>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="viewMore">
         <property name="geometry">
          <rect>
-          <x>530</x>
+          <x>520</x>
           <y>460</y>
           <width>111</width>
           <height>31</height>
@@ -1628,7 +1631,121 @@ font: 700 13pt &quot;Arial&quot;;
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="page_18"/>
+      <widget class="QWidget" name="page_18">
+       <widget class="QLabel" name="label_45">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 700 14pt &quot;Arial&quot;;
+color: rgb(27, 27, 27);</string>
+        </property>
+        <property name="text">
+         <string>Nhập MSSV</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="idStudent_2">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>10</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(27, 27, 27);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="viewStudentScoreboard">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Xem bảng điểm</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="studentScoreboard">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>51</y>
+          <width>631</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTableWidget {
+	gridline-color:black;
+	color: rgb(22, 23, 23);
+	border:none;
+}
+QHeaderView {
+	font: 700 14pt &quot;Arial&quot;;
+	color: rgb(27, 27, 27);
+	gridline-color:black;
+}</string>
+        </property>
+        <column>
+         <property name="text">
+          <string>Tên học phần</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Mã học phần</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Số tín chỉ</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tên lớp</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Giáo viên</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cuối kì</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="page_8">
@@ -3363,6 +3480,7 @@ QHeaderView {
         </column>
        </widget>
       </widget>
+      <widget class="QWidget" name="page_19"/>
      </widget>
     </widget>
    </widget>
