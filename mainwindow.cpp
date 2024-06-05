@@ -28,14 +28,14 @@ void MainWindow::setListOfClass(QVector<Class> _list)
     listOfClass=_list;
 }
 
-QVector<Class> MainWindow::getListOfClass()
+QVector<Class>& MainWindow::getListOfClass()
 {
     return listOfClass;
 }
 void MainWindow::setListOfCourse (QVector<course> list){
     listOfCourse=list;
 }
-QVector<course> MainWindow::getListOfCourse (){
+QVector<course>& MainWindow::getListOfCourse (){
     return listOfCourse;
 }
 void MainWindow::setKindOfSemester (const QString& _kindOfSemester){
@@ -584,8 +584,7 @@ void MainWindow::on_importFile_clicked()
         QTextStream stream(&file);
         QString lineData;
         QVector<Class> list=getListOfClass();
-
-        while (!file.atEnd()) {
+        while (stream.atEnd()==false){
             lineData=stream.readLine().trimmed();
             QStringList data=lineData.split(";");
             QString id=data.at(1);
@@ -602,7 +601,7 @@ void MainWindow::on_importFile_clicked()
             }
 
         }
-
+        setListOfClass(list);
         file.close();
         QMessageBox::information(this, "Cập nhật", "Cập nhật điểm thành công!");
     }
@@ -623,17 +622,33 @@ void MainWindow::on_viewScoreBoard_clicked()
     ui->scoreboard->setColumnWidth(6, 100);
 
     QVector<QString> list=x.getListOfStudent();
+    ui->scoreboard->setRowCount (list.size());
     for (int i=0;i<list.size();i++) {
         student stu=findStudent(list[i]);
-        int pos=findIndexCourse(className, stu.getListOfCourses());
+        QVector<course> list=stu.getListOfCourses();
+        int pos=findIndexCourse(className, list);
 
         ui->scoreboard->setItem(i, 0, new QTableWidgetItem(stu.getIdSudent()));
         ui->scoreboard->setItem(i, 1, new QTableWidgetItem(stu.getFirstName()));
         ui->scoreboard->setItem(i, 2, new QTableWidgetItem(stu.getLastName()));
-        ui->scoreboard->setItem(i, 3, new QTableWidgetItem(stu.getListOfCourses()[pos].getTotal()));
-        ui->scoreboard->setItem(i, 4, new QTableWidgetItem(stu.getListOfCourses()[pos].getFinal()));
-        ui->scoreboard->setItem(i, 5, new QTableWidgetItem(stu.getListOfCourses()[pos].getMid()));
-        ui->scoreboard->setItem(i, 6, new QTableWidgetItem(stu.getListOfCourses()[pos].getOtherMark()));
+        ui->scoreboard->setItem(i, 3, new QTableWidgetItem(QString::number(list[pos].getTotal(), 'f', 2)));
+        ui->scoreboard->setItem(i, 4, new QTableWidgetItem(QString::number(list[pos].getFinal(), 'f', 2)));
+        ui->scoreboard->setItem(i, 5, new QTableWidgetItem(QString::number(list[pos].getMid(), 'f', 2)));
+        ui->scoreboard->setItem(i, 6, new QTableWidgetItem(QString::number(list[pos].getOtherMark(), 'f',2)));
     }
+}
+
+
+void MainWindow::on_viewScoreboard_clicked()
+{
+    ui->stackedWidget_2->setCurrentIndex(2);
+    ui->gpaClass->setColumnWidth(0, 100);
+    ui->gpaClass->setColumnWidth(1, 200);
+    ui->gpaClass->setColumnWidth(2, 100);
+    ui->gpaClass->setColumnWidth(2, 100);
+    QString className=ui->className->text();
+
+    //ui->gpaClass->setRowCount ();
+
 }
 

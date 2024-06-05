@@ -78,7 +78,7 @@ double course::getOtherMark(){
     return otherMark;
 }
 
-QVector<QString> course::getListOfStudent()
+QVector<QString>& course::getListOfStudent()
 {
     return listOfStudents;
 }

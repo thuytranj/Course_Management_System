@@ -56,7 +56,7 @@ public:
 
     account getStudentAccount();
 
-    QVector<course> getListOfCourses ();
+    QVector<course> &getListOfCourses ();
 
 private:
     QString idStudent, firstName, lastName, gender, dateOfBirth, socialId;

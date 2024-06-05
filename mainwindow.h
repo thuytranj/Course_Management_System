@@ -34,11 +34,11 @@ public:
 
     void setListOfClass (QVector<Class> _list);
 
-    QVector<Class> getListOfClass ();
+    QVector<Class> &getListOfClass ();
 
     void setListOfCourse (QVector<course> list);
 
-    QVector<course> getListOfCourse ();
+    QVector<course> &getListOfCourse ();
 
     void setKindOfSemester (const QString& _kindOfSemester);
 
@@ -141,6 +141,8 @@ private slots:
     void on_importFile_clicked();
 
     void on_viewScoreBoard_clicked();
+
+    void on_viewScoreboard_clicked();
 
 private:
     Ui::MainWindow *ui;

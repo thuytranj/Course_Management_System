@@ -9,7 +9,7 @@ void Class::setListOfStudent (QVector<student> _list){
 QString Class::getClassName (){
     return className;
 }
-QVector<student> Class::getListOfStudent (){
+QVector<student>& Class::getListOfStudent (){
     return listOfStudent;
 }
 

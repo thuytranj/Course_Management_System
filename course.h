@@ -73,7 +73,7 @@ public:
 
     double getOtherMark();
 
-    QVector<QString> getListOfStudent ();
+    QVector<QString> &getListOfStudent ();
 
 private:
     QString courseId, courseName, className, teacherName, dayOfWeek, session;

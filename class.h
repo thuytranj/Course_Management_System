@@ -17,7 +17,7 @@ public:
 
     QString getClassName ();
 
-    QVector <student> getListOfStudent ();
+    QVector <student>& getListOfStudent ();
 
 private:
     QString className;

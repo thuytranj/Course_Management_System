@@ -64,7 +64,7 @@ account student::getStudentAccount(){
     return studentAccount;
 }
 
-QVector<course> student::getListOfCourses()
+QVector<course> &student::getListOfCourses()
 {
     return listOfCourses;
 }
