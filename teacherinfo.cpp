@@ -68,7 +68,7 @@ void readTeacherInfo(const QString &path, QVector<teacherInfo> &TeacherInfo)
                 }
             }
             data.append(field.trimmed());
-            qDebug()<<data;
+            //qDebug()<<data;
             if (data.size()==8) {
                 teacherInfo x;
                 account p;

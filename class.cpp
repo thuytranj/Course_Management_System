@@ -45,9 +45,14 @@ void readClasses(const QString &path, QVector<Class> &list)
                 x.setGpa(data.at(8).toDouble());
                 int numsCourse=data.at(9).toInt();
                 QVector<course> listCourses;
-                for (int k=0;k<numsCourse;k++) {
+                for (int k=10;k<=10+(numsCourse-1)*5;k+=5) {
                     course tmp;
-                    tmp.setClassName(data.at(k+10));
+                    tmp.setClassName(data.at(k));
+                    tmp.setTotal(data.at(k+1).toDouble());
+                    tmp.setFinal(data.at(k+2).toDouble());
+                    tmp.setMid(data.at(k+3).toDouble());
+                    tmp.setOtherMark(data.at(k+4).toDouble());
+
                     listCourses.append(tmp);
                 }
                 x.setListOfCourses(listCourses);

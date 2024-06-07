@@ -78,6 +78,10 @@ public:
 
     int findIndexClass (const QString& nameClass, QVector<Class> list);
 
+    bool isTeacher ();
+
+    void setTeacher(const bool& t);
+
 private slots:
     void on_teacher_clicked();
 
@@ -141,7 +145,6 @@ private slots:
 
     void on_outputList_clicked();
 
-
     void on_importFile_clicked();
 
     void on_viewScoreBoard_clicked();
@@ -158,6 +161,10 @@ private slots:
 
     void on_changePassword_clicked();
 
+    void on_logOut_3_clicked();
+
+    void on_logOut_clicked();
+
 private:
     Ui::MainWindow *ui;
     QVector<teacherInfo> TeacherInfo;
@@ -166,5 +173,6 @@ private:
     QVector<Class> listOfClass;
     QVector<course> listOfCourse;
     QString kindOfSemester, schoolYear,startDate, endDate;
+    bool teacher;
 };
 #endif // MAINWINDOW_H

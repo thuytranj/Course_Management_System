@@ -768,7 +768,7 @@ font: 14pt &quot;Arial&quot;;</string>
       <widget class="QLineEdit" name="username_2">
        <property name="geometry">
         <rect>
-         <x>20</x>
+         <x>30</x>
          <y>70</y>
          <width>81</width>
          <height>21</height>
@@ -1368,7 +1368,7 @@ QPushButton:Hover
        </rect>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page_6">
        <widget class="QTableWidget" name="table_class">
@@ -2137,7 +2137,7 @@ QPushButton:Hover
        </rect>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="page_9">
        <widget class="QTableWidget" name="tableCourse">
@@ -2733,7 +2733,7 @@ QPushButton:Hover
          <rect>
           <x>20</x>
           <y>430</y>
-          <width>101</width>
+          <width>121</width>
           <height>32</height>
          </rect>
         </property>
@@ -2854,9 +2854,9 @@ QHeaderView {
      <widget class="QWidget" name="widget_12" native="true">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>30</x>
         <y>40</y>
-        <width>171</width>
+        <width>131</width>
         <height>601</height>
        </rect>
       </property>
@@ -2866,9 +2866,9 @@ QHeaderView {
       <widget class="QPushButton" name="schedule">
        <property name="geometry">
         <rect>
-         <x>10</x>
+         <x>20</x>
          <y>170</y>
-         <width>91</width>
+         <width>101</width>
          <height>32</height>
         </rect>
        </property>
@@ -3007,10 +3007,10 @@ QPushButton:Hover
      <widget class="QStackedWidget" name="stackedWidget_4">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>10</y>
-        <width>681</width>
-        <height>601</height>
+        <x>160</x>
+        <y>-10</y>
+        <width>641</width>
+        <height>651</height>
        </rect>
       </property>
       <widget class="QWidget" name="page_13"/>
@@ -3019,7 +3019,7 @@ QPushButton:Hover
         <property name="geometry">
          <rect>
           <x>170</x>
-          <y>150</y>
+          <y>190</y>
           <width>481</width>
           <height>291</height>
          </rect>
@@ -3225,7 +3225,7 @@ background-color: rgb(241, 243, 243);
         <property name="geometry">
          <rect>
           <x>20</x>
-          <y>150</y>
+          <y>190</y>
           <width>131</width>
           <height>191</height>
          </rect>
@@ -3288,7 +3288,7 @@ border:none;</string>
         <property name="geometry">
          <rect>
           <x>30</x>
-          <y>390</y>
+          <y>440</y>
           <width>111</width>
           <height>41</height>
          </rect>
@@ -3308,8 +3308,8 @@ border:none;</string>
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>30</y>
-          <width>691</width>
+          <y>50</y>
+          <width>771</width>
           <height>81</height>
          </rect>
         </property>
@@ -3393,6 +3393,10 @@ font: 700 13pt &quot;Arial&quot;;</string>
            <height>21</height>
           </rect>
          </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgba(0, 0, 0, 168);
+font: 700 13pt &quot;Arial&quot;;</string>
+         </property>
         </widget>
         <widget class="QLineEdit" name="semester_3">
          <property name="geometry">
@@ -3402,6 +3406,10 @@ font: 700 13pt &quot;Arial&quot;;</string>
            <width>51</width>
            <height>21</height>
           </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgba(0, 0, 0, 168);
+font: 700 13pt &quot;Arial&quot;;</string>
          </property>
         </widget>
         <widget class="QLineEdit" name="startDate_3">
@@ -3413,6 +3421,10 @@ font: 700 13pt &quot;Arial&quot;;</string>
            <height>21</height>
           </rect>
          </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgba(0, 0, 0, 168);
+font: 700 13pt &quot;Arial&quot;;</string>
+         </property>
         </widget>
         <widget class="QLineEdit" name="endDate_4">
          <property name="geometry">
@@ -3422,6 +3434,10 @@ font: 700 13pt &quot;Arial&quot;;</string>
            <width>91</width>
            <height>21</height>
           </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgba(0, 0, 0, 168);
+font: 700 13pt &quot;Arial&quot;;</string>
          </property>
         </widget>
        </widget>
@@ -3480,7 +3496,90 @@ QHeaderView {
         </column>
        </widget>
       </widget>
-      <widget class="QWidget" name="page_19"/>
+      <widget class="QWidget" name="page_19">
+       <widget class="QTableWidget" name="scoreboard_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>621</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTableWidget {
+	gridline-color:black;
+	color: rgb(22, 23, 23);
+	border:none;
+}
+QHeaderView {
+	font: 700 14pt &quot;Arial&quot;;
+	color: rgb(27, 27, 27);
+	gridline-color:black;
+}</string>
+        </property>
+        <column>
+         <property name="text">
+          <string>Mã học phần</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tên học phần</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Tổng kết</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cuối kì</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Giữa kì</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Cộng</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_47">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>80</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 700 14pt &quot;Arial&quot;;
+color: rgb(27, 27, 27);</string>
+        </property>
+        <property name="text">
+         <string>Điểm trung bình</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="gpa">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>80</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(55, 55, 55);</string>
+        </property>
+       </widget>
+      </widget>
      </widget>
     </widget>
    </widget>

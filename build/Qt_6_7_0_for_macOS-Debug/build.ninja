@@ -223,7 +223,7 @@ build Course_Management_System_autogen/timestamp Course_Management_System_autoge
 #############################################
 # Phony custom command for CMakeFiles/Course_Management_System_autogen_timestamp_deps
 
-build CMakeFiles/Course_Management_System_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Course_Management_System_autogen_timestamp_deps: phony /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/thuytran/Qt/6.7.0/macos/./libexec/uic /Users/thuytran/Qt/6.7.0/macos/./libexec/moc /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore
+build CMakeFiles/Course_Management_System_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Course_Management_System_autogen_timestamp_deps: phony /Users/thuytran/Qt/6.7.0/macos/./libexec/moc /Users/thuytran/Qt/6.7.0/macos/./libexec/uic /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 
 #############################################
