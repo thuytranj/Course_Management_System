@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BONUS PROJECT\\Course_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\teacherinfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:teacherinfo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\teacherinfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:teacherinfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:class.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\course.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:course.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BONUS PROJECT\\Course_Management_System\\account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:account.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "teacherinfo.h",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\teacherinfo.h",
+              "RelativeDocumentMoniker": "teacherinfo.h",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\teacherinfo.h",
+              "RelativeToolTip": "teacherinfo.h",
+              "ViewState": "AQIAACoAAAAAAAAAAAAgwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-08T12:24:53.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "teacherinfo.cpp",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\teacherinfo.cpp",
+              "RelativeDocumentMoniker": "teacherinfo.cpp",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\teacherinfo.cpp",
+              "RelativeToolTip": "teacherinfo.cpp",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-08T12:24:37.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "student.cpp",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\student.cpp",
+              "RelativeDocumentMoniker": "student.cpp",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\student.cpp",
+              "RelativeToolTip": "student.cpp",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAswHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-08T10:30:10.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "student.h",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\student.h",
+              "RelativeDocumentMoniker": "student.h",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\student.h",
+              "RelativeToolTip": "student.h",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-08T10:26:24.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "course.cpp",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\course.cpp",
+              "RelativeDocumentMoniker": "course.cpp",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\course.cpp",
+              "RelativeToolTip": "course.cpp",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-08T09:04:06.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "course.h",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\course.h",
+              "RelativeDocumentMoniker": "course.h",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\course.h",
+              "RelativeToolTip": "course.h",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAADUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-08T09:03:17.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "account.h",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\account.h",
+              "RelativeDocumentMoniker": "account.h",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\account.h",
+              "RelativeToolTip": "account.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-08T09:03:03.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "class.cpp",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\class.cpp",
+              "RelativeDocumentMoniker": "class.cpp",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\class.cpp",
+              "RelativeToolTip": "class.cpp",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-08T09:01:06.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "class.h",
+              "DocumentMoniker": "D:\\BONUS PROJECT\\Course_Management_System\\class.h",
+              "RelativeDocumentMoniker": "class.h",
+              "ToolTip": "D:\\BONUS PROJECT\\Course_Management_System\\class.h",
+              "RelativeToolTip": "class.h",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-08T08:59:41.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

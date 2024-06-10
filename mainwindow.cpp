@@ -168,9 +168,9 @@ MainWindow::MainWindow(QWidget *parent)
     ui->username->setPlaceholderText("Tên đăng nhập");
     ui->password->setPlaceholderText("Mật khẩu");
     QVector<Class> classInSemester;
-    readClasses ("/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/database/classes.csv", classInSemester);
+    readClasses ("classes.csv", classInSemester);
     QVector<course> courseInSemester;
-    QVector<QString> semester = readCourseInSemester("/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/database/semester.csv", courseInSemester);
+    QVector<QString> semester = readCourseInSemester("semester.csv", courseInSemester);
     setListOfClass(classInSemester);
     setListOfCourse(courseInSemester);
     setKindOfSemester(semester[0]);
@@ -188,7 +188,7 @@ void MainWindow::on_teacher_clicked()
 {
     QVector<teacherInfo> TeacherInfo=getTeacherInfos();
     if (TeacherInfo.size()==0) {
-        readTeacherInfo("/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/database/Teacher.csv", TeacherInfo);
+        readTeacherInfo("Teacher.csv", TeacherInfo);
         setTeacherInfos (TeacherInfo);
     }
     int pos=-1;

@@ -1,0 +1,20 @@
+# ninja log v5
+1	1032	7397210358128262	Course_Management_System_autogen/timestamp	a1f0977e41ba7f18
+11842	19583	7397210544300770	CMakeFiles/Course_Management_System.dir/class.cpp.obj	56b0887ab5fd4e13
+1	1032	7397210358128262	D:/BONUS PROJECT/Course_Management_System/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Course_Management_System_autogen/mocs_compilation.cpp	a1f0977e41ba7f18
+1	1032	7397210358128262	Course_Management_System_autogen/mocs_compilation.cpp	a1f0977e41ba7f18
+1	1032	7397210358128262	D:/BONUS PROJECT/Course_Management_System/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Course_Management_System_autogen/timestamp	a1f0977e41ba7f18
+1033	11691	7397210464593552	CMakeFiles/Course_Management_System.dir/Course_Management_System_autogen/mocs_compilation.cpp.obj	9b176db694c6ab05
+1040	12106	7397210469360821	CMakeFiles/Course_Management_System.dir/main.cpp.obj	77098df27633edba
+1054	11841	7397210466558292	CMakeFiles/Course_Management_System.dir/student.cpp.obj	54b2e140151036f7
+1050	11880	7397210466827572	CMakeFiles/Course_Management_System.dir/course.cpp.obj	982a430617b36c0d
+1043	12496	7397210473419943	CMakeFiles/Course_Management_System.dir/account.cpp.obj	618ab4a83e9eb9b2
+1036	16024	7397210508615826	CMakeFiles/Course_Management_System.dir/mainwindow.cpp.obj	f703cb5850338e5a
+11700	19163	7397210540111582	CMakeFiles/Course_Management_System.dir/teacherinfo.cpp.obj	9bee1861d55e7c44
+19584	20726	7397210555695864	Course_Management_System.exe	14659aa8d1f9aa2d
+16	262	7397216248515753	Course_Management_System_autogen/timestamp	a1f0977e41ba7f18
+16	262	7397216248515753	Course_Management_System_autogen/mocs_compilation.cpp	a1f0977e41ba7f18
+16	262	7397216248515753	D:/BONUS PROJECT/Course_Management_System/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Course_Management_System_autogen/timestamp	a1f0977e41ba7f18
+16	262	7397216248515753	D:/BONUS PROJECT/Course_Management_System/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Course_Management_System_autogen/mocs_compilation.cpp	a1f0977e41ba7f18
+270	12980	7397216375665703	CMakeFiles/Course_Management_System.dir/mainwindow.cpp.obj	f703cb5850338e5a
+12981	14592	7397216391762653	Course_Management_System.exe	14659aa8d1f9aa2d
