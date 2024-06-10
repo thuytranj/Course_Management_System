@@ -1,4 +1,5 @@
 #include "class.h"
+#include <iostream>
 
 void Class::setClassName (const QString& _className){
     className=_className;
@@ -11,6 +12,39 @@ QString Class::getClassName (){
 }
 QVector<student>& Class::getListOfStudent (){
     return listOfStudent;
+}
+
+void Class::AddnewStudent(const student& s)
+{
+    listOfStudent.push_back(s);
+}
+
+void Class::UpdateStudentFromCsv(const QString &path)
+{
+    QFile ifile(path);
+    if (ifile.open(QIODevice::ReadOnly)) {
+        QTextStream stream(&ifile);
+        while (!stream.atEnd()) {
+            QString idStudent, firstName, lastName, gender, dateOfBirth, socialId, score;
+            double gpa;
+
+            QString textLine = stream.readLine();
+            QStringList data = textLine.split(";");
+
+            idStudent = data[0];
+            firstName = data[1];
+            lastName = data[2];
+            gender = data[3];
+            dateOfBirth = data[4];
+            socialId = data[5];
+            score = data[6];
+
+            gpa = score.toDouble();
+            student s(idStudent, firstName, lastName, gender, dateOfBirth, socialId, gpa);
+
+            listOfStudent.append(s);
+        }
+    } else qDebug()<<"Khong mo duoc file";
 }
 
 void readClasses(const QString &path, QVector<Class> &list)

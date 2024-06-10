@@ -19,6 +19,10 @@ public:
 
     QVector <student>& getListOfStudent ();
 
+    void AddnewStudent(const student& s);
+
+    void UpdateStudentFromCsv(const QString &path);
+
 private:
     QString className;
 
