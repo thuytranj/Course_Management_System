@@ -165,6 +165,10 @@ private slots:
 
     void on_logOut_clicked();
 
+    void on_newAccount_2_clicked();
+
+    void on_newAccount_clicked();
+
 private:
     Ui::MainWindow *ui;
     QVector<teacherInfo> TeacherInfo;

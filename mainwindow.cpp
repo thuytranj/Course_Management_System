@@ -544,11 +544,6 @@ void MainWindow::on_student_clicked()
 void MainWindow::on_account_Student_clicked()
 {
     ui->stackedWidget_4->setCurrentIndex(1);
-    ui->schoolYear_7->setText (getSchoolYear());
-    ui->semester_3->setText (getKindOfSemester());
-    ui->startDate_3->setText(getStartDate());
-    ui->endDate_4->setText (getEndDate());
-
     int classPos=getPosClassStudent();
     int noPos=getPosNoStudent();
     QVector<Class> list=getListOfClass();
@@ -742,6 +737,10 @@ void MainWindow::on_home_5_clicked(){
 
 void MainWindow::on_summary_clicked(){
     ui->stackedWidget_4->setCurrentIndex(3);
+    ui->schoolYear_7->setText (getSchoolYear());
+    ui->semester_3->setText (getKindOfSemester());
+    ui->startDate_3->setText(getStartDate());
+    ui->endDate_4->setText (getEndDate());
     int posClass=getPosClassStudent();
     int pos=getPosNoStudent();
     QVector<Class> list=getListOfClass();
@@ -772,5 +771,72 @@ void MainWindow::on_logOut_3_clicked(){
 void MainWindow::on_logOut_clicked()
 {
     on_logOut_2_clicked();
+}
+
+
+void MainWindow::on_newAccount_2_clicked()
+{
+    QString firstName=ui->firstName_3->text();
+    if (firstName=="") {
+        QMessageBox::warning(this, "Thông báo", "Họ không được để trống");
+        return;
+    }
+    QString lastName=ui->lastName_3->text();
+    if (lastName=="") {
+        QMessageBox::warning(this, "Thông báo", "Tên không được để trống");
+        return;
+    }
+    QString gender=ui->gender_3->text();
+    if (gender=="") {
+        QMessageBox::warning(this, "Thông báo", "Giới tính không được để trống");
+        return;
+    }
+    QString dateOfBirth=ui->dateOfBirth_3->text();
+    if (dateOfBirth=="") {
+        QMessageBox::warning(this, "Thông báo", "Ngày sinh không được để trống");
+        return;
+    }
+    QString socialId=ui->socialId_3->text();
+    if (socialId=="") {
+        QMessageBox::warning(this, "Thông báo", "CCCD không được để trống");
+        return;
+    }
+    QString email=ui->email_2->text();
+    if (email==""){
+        QMessageBox::warning(this, "Thông báo", "Email không được để trống");
+        return;
+    }
+    QString userName=ui->username_4->text();
+    if (userName=="") {
+        QMessageBox::warning(this, "Thông báo", "Tên đăng nhập không được để trống");
+        return;
+    }
+    QString password=ui->password_2->text();
+    if (password=="") {
+        QMessageBox::warning(this, "Thông báo", "Mật khẩu không được để trống");
+        return;
+    }
+    teacherInfo x;
+    x.setFirstName(firstName);
+    x.setLastName(lastName);
+    x.setGender(gender);
+    x.setDateOfBirth(dateOfBirth);
+    x.setSocialId(socialId);
+    x.setEmail(email);
+    account tmp;
+    tmp.setUsername(userName);
+    tmp.setPassword(password);
+    x.setTeacherAccount(tmp);
+    QVector<teacherInfo> list=getTeacherInfos();
+    list.append(x);
+    setTeacherInfos(list);
+    QMessageBox::warning(this, "Thông báo", "Tạo tài khoản thành công!");
+     ui->stackedWidget->setCurrentIndex(0);
+}
+
+
+void MainWindow::on_newAccount_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(7);
 }
 
