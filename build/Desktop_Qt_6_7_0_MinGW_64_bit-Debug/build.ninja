@@ -113,6 +113,22 @@ build CMakeFiles/Course_Management_System.dir/class.cpp.obj: CXX_COMPILER__Cours
   OBJECT_DIR = CMakeFiles\Course_Management_System.dir
   OBJECT_FILE_DIR = CMakeFiles\Course_Management_System.dir
 
+build CMakeFiles/Course_Management_System.dir/schoolyear.cpp.obj: CXX_COMPILER__Course_Management_System_unscanned_Debug D$:/BONUS$ PROJECT/Course_Management_System/schoolyear.cpp || cmake_object_order_depends_target_Course_Management_System
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Course_Management_System.dir\schoolyear.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"D:/BONUS PROJECT/Course_Management_System/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Course_Management_System_autogen/include" -isystem D:/Qt/6.7.0/mingw_64/include/QtCore -isystem D:/Qt/6.7.0/mingw_64/include -isystem D:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Course_Management_System.dir
+  OBJECT_FILE_DIR = CMakeFiles\Course_Management_System.dir
+
+build CMakeFiles/Course_Management_System.dir/semester.cpp.obj: CXX_COMPILER__Course_Management_System_unscanned_Debug D$:/BONUS$ PROJECT/Course_Management_System/semester.cpp || cmake_object_order_depends_target_Course_Management_System
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Course_Management_System.dir\semester.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"D:/BONUS PROJECT/Course_Management_System/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Course_Management_System_autogen/include" -isystem D:/Qt/6.7.0/mingw_64/include/QtCore -isystem D:/Qt/6.7.0/mingw_64/include -isystem D:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem D:/Qt/6.7.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Course_Management_System.dir
+  OBJECT_FILE_DIR = CMakeFiles\Course_Management_System.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Course_Management_System
@@ -121,7 +137,7 @@ build CMakeFiles/Course_Management_System.dir/class.cpp.obj: CXX_COMPILER__Cours
 #############################################
 # Link the executable Course_Management_System.exe
 
-build Course_Management_System.exe: CXX_EXECUTABLE_LINKER__Course_Management_System_Debug CMakeFiles/Course_Management_System.dir/Course_Management_System_autogen/mocs_compilation.cpp.obj CMakeFiles/Course_Management_System.dir/main.cpp.obj CMakeFiles/Course_Management_System.dir/mainwindow.cpp.obj CMakeFiles/Course_Management_System.dir/account.cpp.obj CMakeFiles/Course_Management_System.dir/teacherinfo.cpp.obj CMakeFiles/Course_Management_System.dir/student.cpp.obj CMakeFiles/Course_Management_System.dir/course.cpp.obj CMakeFiles/Course_Management_System.dir/class.cpp.obj | D$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || Course_Management_System_autogen Course_Management_System_autogen_timestamp_deps
+build Course_Management_System.exe: CXX_EXECUTABLE_LINKER__Course_Management_System_Debug CMakeFiles/Course_Management_System.dir/Course_Management_System_autogen/mocs_compilation.cpp.obj CMakeFiles/Course_Management_System.dir/main.cpp.obj CMakeFiles/Course_Management_System.dir/mainwindow.cpp.obj CMakeFiles/Course_Management_System.dir/account.cpp.obj CMakeFiles/Course_Management_System.dir/teacherinfo.cpp.obj CMakeFiles/Course_Management_System.dir/student.cpp.obj CMakeFiles/Course_Management_System.dir/course.cpp.obj CMakeFiles/Course_Management_System.dir/class.cpp.obj CMakeFiles/Course_Management_System.dir/schoolyear.cpp.obj CMakeFiles/Course_Management_System.dir/semester.cpp.obj | D$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a D$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || Course_Management_System_autogen Course_Management_System_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a  D:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a  D:/Qt/6.7.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -224,7 +240,7 @@ build Course_Management_System_autogen/timestamp Course_Management_System_autoge
 #############################################
 # Phony custom command for CMakeFiles\Course_Management_System_autogen_timestamp_deps
 
-build CMakeFiles/Course_Management_System_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Course_Management_System_autogen_timestamp_deps: phony D$:/Qt/6.7.0/mingw_64/./bin/uic.exe D$:/Qt/6.7.0/mingw_64/./bin/moc.exe D$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a D$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a
+build CMakeFiles/Course_Management_System_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Course_Management_System_autogen_timestamp_deps: phony D$:/Qt/6.7.0/mingw_64/./bin/moc.exe D$:/Qt/6.7.0/mingw_64/./bin/uic.exe D$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a D$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################

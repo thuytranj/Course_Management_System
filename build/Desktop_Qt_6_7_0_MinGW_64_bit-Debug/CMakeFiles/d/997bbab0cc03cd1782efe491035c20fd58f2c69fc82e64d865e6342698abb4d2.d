@@ -15,6 +15,10 @@ Course_Management_System_autogen/timestamp: \
   D:/BONUS\ PROJECT/Course_Management_System/mainwindow.cpp \
   D:/BONUS\ PROJECT/Course_Management_System/mainwindow.h \
   D:/BONUS\ PROJECT/Course_Management_System/mainwindow.ui \
+  D:/BONUS\ PROJECT/Course_Management_System/schoolyear.cpp \
+  D:/BONUS\ PROJECT/Course_Management_System/schoolyear.h \
+  D:/BONUS\ PROJECT/Course_Management_System/semester.cpp \
+  D:/BONUS\ PROJECT/Course_Management_System/semester.h \
   D:/BONUS\ PROJECT/Course_Management_System/student.cpp \
   D:/BONUS\ PROJECT/Course_Management_System/student.h \
   D:/BONUS\ PROJECT/Course_Management_System/teacherinfo.cpp \

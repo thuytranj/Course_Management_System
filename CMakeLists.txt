@@ -28,6 +28,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         student.h student.cpp
         course.h course.cpp
         class.h class.cpp
+        schoolyear.h schoolyear.cpp
+        semester.h semester.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Course_Management_System APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

@@ -319,6 +319,18 @@
 			null
 		],
 		[
+			"D:/BONUS PROJECT/Course_Management_System/schoolyear.h",
+			"MU",
+			"EWIEGA46WW/moc_schoolyear.cpp",
+			null
+		],
+		[
+			"D:/BONUS PROJECT/Course_Management_System/semester.h",
+			"MU",
+			"EWIEGA46WW/moc_semester.cpp",
+			null
+		],
+		[
 			"D:/BONUS PROJECT/Course_Management_System/student.h",
 			"MU",
 			"EWIEGA46WW/moc_student.cpp",
@@ -411,6 +423,12 @@
 			"MU",
 			null
 		],
+		[
+			"D:/BONUS PROJECT/Course_Management_System/schoolyear.cpp",
+			"MU",
+			null
+		],
+		[ "D:/BONUS PROJECT/Course_Management_System/semester.cpp", "MU", null ],
 		[ "D:/BONUS PROJECT/Course_Management_System/student.cpp", "MU", null ],
 		[
 			"D:/BONUS PROJECT/Course_Management_System/teacherinfo.cpp",
