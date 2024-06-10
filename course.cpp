@@ -83,6 +83,38 @@ QVector<QString>& course::getListOfStudent()
     return listOfStudents;
 }
 
+void course::AddaStudent(const QString& s)
+{
+    this->listOfStudents.push_back(s);
+}
+
+void course::RemoveStudentbyID(const QString& ID)
+{
+    int a = -1;
+    for (int i = 0; i < listOfStudents.size(); i++) {
+        if (listOfStudents[i] == ID) {
+            a = i;
+            break;
+        }
+    }
+    listOfStudents.erase(listOfStudents.begin() + a);
+}
+
+void course::LoadStudentFromCsv(const QString &path) {
+    QFile ifile(path);
+    if (ifile.open(QIODevice::ReadOnly)) {
+        QTextStream stream(&ifile);
+        while (!stream.atEnd()) {
+            QString textLine = stream.readLine();
+            QStringList data = textLine.split(";");
+
+            QString idStudent = data[0];
+
+            listOfStudents.append(idStudent);
+        }
+    } else qDebug()<<"Khong mo duoc file";
+}
+
 QVector<QString> readCourseInSemester(const QString &path, QVector<course> &list)
 {
     QFile ifile (path);
