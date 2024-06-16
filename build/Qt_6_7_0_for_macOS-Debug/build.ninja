@@ -113,6 +113,22 @@ build CMakeFiles/Course_Management_System.dir/class.cpp.o: CXX_COMPILER__Course_
   OBJECT_DIR = CMakeFiles/Course_Management_System.dir
   OBJECT_FILE_DIR = CMakeFiles/Course_Management_System.dir
 
+build CMakeFiles/Course_Management_System.dir/schoolyear.cpp.o: CXX_COMPILER__Course_Management_System_unscanned_Debug /Users/thuytran/Documents/Course_Management_System/schoolyear.cpp || cmake_object_order_depends_target_Course_Management_System
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Course_Management_System.dir/schoolyear.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/Course_Management_System_autogen/include -isystem /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Headers -iframework /Users/thuytran/Qt/6.7.0/macos/lib -isystem /Users/thuytran/Qt/6.7.0/macos/mkspecs/macx-clang -isystem /Users/thuytran/Qt/6.7.0/macos/include -isystem /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/Course_Management_System.dir
+  OBJECT_FILE_DIR = CMakeFiles/Course_Management_System.dir
+
+build CMakeFiles/Course_Management_System.dir/semester.cpp.o: CXX_COMPILER__Course_Management_System_unscanned_Debug /Users/thuytran/Documents/Course_Management_System/semester.cpp || cmake_object_order_depends_target_Course_Management_System
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Course_Management_System.dir/semester.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/Course_Management_System_autogen/include -isystem /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Headers -iframework /Users/thuytran/Qt/6.7.0/macos/lib -isystem /Users/thuytran/Qt/6.7.0/macos/mkspecs/macx-clang -isystem /Users/thuytran/Qt/6.7.0/macos/include -isystem /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/Course_Management_System.dir
+  OBJECT_FILE_DIR = CMakeFiles/Course_Management_System.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Course_Management_System
@@ -121,7 +137,7 @@ build CMakeFiles/Course_Management_System.dir/class.cpp.o: CXX_COMPILER__Course_
 #############################################
 # Link the executable Course_Management_System.app/Contents/MacOS/Course_Management_System
 
-build Course_Management_System.app/Contents/MacOS/Course_Management_System: CXX_EXECUTABLE_LINKER__Course_Management_System_Debug CMakeFiles/Course_Management_System.dir/Course_Management_System_autogen/mocs_compilation.cpp.o CMakeFiles/Course_Management_System.dir/main.cpp.o CMakeFiles/Course_Management_System.dir/mainwindow.cpp.o CMakeFiles/Course_Management_System.dir/account.cpp.o CMakeFiles/Course_Management_System.dir/teacherinfo.cpp.o CMakeFiles/Course_Management_System.dir/student.cpp.o CMakeFiles/Course_Management_System.dir/course.cpp.o CMakeFiles/Course_Management_System.dir/class.cpp.o | /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore || Course_Management_System_autogen Course_Management_System_autogen_timestamp_deps
+build Course_Management_System.app/Contents/MacOS/Course_Management_System: CXX_EXECUTABLE_LINKER__Course_Management_System_Debug CMakeFiles/Course_Management_System.dir/Course_Management_System_autogen/mocs_compilation.cpp.o CMakeFiles/Course_Management_System.dir/main.cpp.o CMakeFiles/Course_Management_System.dir/mainwindow.cpp.o CMakeFiles/Course_Management_System.dir/account.cpp.o CMakeFiles/Course_Management_System.dir/teacherinfo.cpp.o CMakeFiles/Course_Management_System.dir/student.cpp.o CMakeFiles/Course_Management_System.dir/course.cpp.o CMakeFiles/Course_Management_System.dir/class.cpp.o CMakeFiles/Course_Management_System.dir/schoolyear.cpp.o CMakeFiles/Course_Management_System.dir/semester.cpp.o | /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore || Course_Management_System_autogen Course_Management_System_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/thuytran/Qt/6.7.0/macos/lib  /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/thuytran/Qt/6.7.0/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -iframework /Users/thuytran/Qt/6.7.0/macos/lib
@@ -223,7 +239,7 @@ build Course_Management_System_autogen/timestamp Course_Management_System_autoge
 #############################################
 # Phony custom command for CMakeFiles/Course_Management_System_autogen_timestamp_deps
 
-build CMakeFiles/Course_Management_System_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Course_Management_System_autogen_timestamp_deps: phony /Users/thuytran/Qt/6.7.0/macos/./libexec/moc /Users/thuytran/Qt/6.7.0/macos/./libexec/uic /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+build CMakeFiles/Course_Management_System_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Course_Management_System_autogen_timestamp_deps: phony /Users/thuytran/Qt/6.7.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/thuytran/Qt/6.7.0/macos/./libexec/moc /Users/thuytran/Qt/6.7.0/macos/./libexec/uic /Users/thuytran/Qt/6.7.0/macos/lib/QtCore.framework/Versions/A/QtCore
 
 
 #############################################

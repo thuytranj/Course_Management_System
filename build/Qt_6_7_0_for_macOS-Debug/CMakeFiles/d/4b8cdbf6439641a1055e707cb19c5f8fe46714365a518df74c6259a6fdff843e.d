@@ -108,6 +108,10 @@ Course_Management_System_autogen/timestamp: \
   /Users/thuytran/Documents/Course_Management_System/mainwindow.cpp \
   /Users/thuytran/Documents/Course_Management_System/mainwindow.h \
   /Users/thuytran/Documents/Course_Management_System/mainwindow.ui \
+  /Users/thuytran/Documents/Course_Management_System/schoolyear.cpp \
+  /Users/thuytran/Documents/Course_Management_System/schoolyear.h \
+  /Users/thuytran/Documents/Course_Management_System/semester.cpp \
+  /Users/thuytran/Documents/Course_Management_System/semester.h \
   /Users/thuytran/Documents/Course_Management_System/student.cpp \
   /Users/thuytran/Documents/Course_Management_System/student.h \
   /Users/thuytran/Documents/Course_Management_System/teacherinfo.cpp \

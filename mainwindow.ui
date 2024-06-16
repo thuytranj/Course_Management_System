@@ -649,6 +649,9 @@ font: 14pt &quot;Arial&quot;;</string>
 background-color: rgb(241, 243, 243);
 </string>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLineEdit" name="gender">
        <property name="geometry">
@@ -663,6 +666,9 @@ background-color: rgb(241, 243, 243);
         <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="QLineEdit" name="socialId">
@@ -679,6 +685,9 @@ background-color: rgb(241, 243, 243);
 background-color: rgb(241, 243, 243);
 </string>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLineEdit" name="email">
        <property name="geometry">
@@ -693,6 +702,9 @@ background-color: rgb(241, 243, 243);
         <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="QLineEdit" name="dateOfBirth">
@@ -709,6 +721,9 @@ background-color: rgb(241, 243, 243);
 background-color: rgb(241, 243, 243);
 </string>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLineEdit" name="lastName">
        <property name="geometry">
@@ -723,6 +738,9 @@ background-color: rgb(241, 243, 243);
         <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1139,6 +1157,9 @@ QPushButton:Hover
 border:none;
 </string>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLineEdit" name="semester">
        <property name="geometry">
@@ -1153,6 +1174,9 @@ border:none;
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
 </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="QLineEdit" name="startDate">
@@ -1169,6 +1193,9 @@ border:none;
 border:none;
 </string>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLineEdit" name="endDate">
        <property name="geometry">
@@ -1183,6 +1210,9 @@ border:none;
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
 </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="QPushButton" name="listClasses">
@@ -1376,7 +1406,7 @@ QPushButton:Hover
        </rect>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page_6">
        <widget class="QTableWidget" name="table_class">
@@ -1936,6 +1966,9 @@ QPushButton:Hover
 border:none;
 </string>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLineEdit" name="semester_2">
        <property name="geometry">
@@ -1950,6 +1983,9 @@ border:none;
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
 </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="QLineEdit" name="startDate_2">
@@ -1966,6 +2002,9 @@ border:none;
 border:none;
 </string>
        </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
       </widget>
       <widget class="QLineEdit" name="endDate_2">
        <property name="geometry">
@@ -1980,6 +2019,9 @@ border:none;
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
 </string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
        </property>
       </widget>
       <widget class="QPushButton" name="listClasses_2">
@@ -2145,7 +2187,7 @@ QPushButton:Hover
        </rect>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="page_9">
        <widget class="QTableWidget" name="tableCourse">
@@ -2264,6 +2306,9 @@ QHeaderView {
         <property name="styleSheet">
          <string notr="true">color: rgb(27, 27, 27);
 background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
         </property>
        </widget>
        <widget class="QLabel" name="label_24">
@@ -2477,7 +2522,7 @@ font: 14pt &quot;Arial&quot;;</string>
         <widget class="QLabel" name="label_31">
          <property name="geometry">
           <rect>
-           <x>310</x>
+           <x>300</x>
            <y>180</y>
            <width>58</width>
            <height>16</height>
@@ -2505,6 +2550,9 @@ font: 14pt &quot;Arial&quot;;</string>
 background-color: rgb(241, 243, 243);
 </string>
          </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLineEdit" name="courseName">
          <property name="geometry">
@@ -2519,6 +2567,9 @@ background-color: rgb(241, 243, 243);
           <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLineEdit" name="className_4">
@@ -2535,6 +2586,9 @@ background-color: rgb(241, 243, 243);
 background-color: rgb(241, 243, 243);
 </string>
          </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLineEdit" name="time">
          <property name="geometry">
@@ -2549,6 +2603,9 @@ background-color: rgb(241, 243, 243);
           <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLineEdit" name="credits">
@@ -2565,6 +2622,9 @@ background-color: rgb(241, 243, 243);
 background-color: rgb(241, 243, 243);
 </string>
          </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLineEdit" name="teacherName">
          <property name="geometry">
@@ -2579,6 +2639,9 @@ background-color: rgb(241, 243, 243);
           <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLabel" name="label_32">
@@ -2629,6 +2692,9 @@ font: 14pt &quot;Arial&quot;;</string>
 background-color: rgb(241, 243, 243);
 </string>
          </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLineEdit" name="enrolledStudent">
          <property name="geometry">
@@ -2643,6 +2709,9 @@ background-color: rgb(241, 243, 243);
           <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
        </widget>
@@ -3152,6 +3221,9 @@ font: 14pt &quot;Arial&quot;;</string>
 background-color: rgb(241, 243, 243);
 </string>
          </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLineEdit" name="gender_2">
          <property name="geometry">
@@ -3166,6 +3238,9 @@ background-color: rgb(241, 243, 243);
           <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLineEdit" name="socialId_2">
@@ -3182,6 +3257,9 @@ background-color: rgb(241, 243, 243);
 background-color: rgb(241, 243, 243);
 </string>
          </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLineEdit" name="idStudent">
          <property name="geometry">
@@ -3196,6 +3274,9 @@ background-color: rgb(241, 243, 243);
           <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLineEdit" name="dateOfBirth_2">
@@ -3212,6 +3293,9 @@ background-color: rgb(241, 243, 243);
 background-color: rgb(241, 243, 243);
 </string>
          </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
         </widget>
         <widget class="QLineEdit" name="lastName_2">
          <property name="geometry">
@@ -3226,6 +3310,9 @@ background-color: rgb(241, 243, 243);
           <string notr="true">color: rgb(55, 55, 55);
 background-color: rgb(241, 243, 243);
 </string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
        </widget>
@@ -3447,7 +3534,10 @@ color: rgb(27, 27, 27);</string>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(55, 55, 55);</string>
+         <string notr="true">font: 700 13pt &quot;Arial&quot;;
+color: rgba(0, 0, 0, 168);
+border:none;
+</string>
         </property>
        </widget>
        <widget class="QWidget" name="widget_15" native="true">
@@ -3540,8 +3630,13 @@ font: 700 13pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+color: rgba(0, 0, 0, 168);
+border:none;
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLineEdit" name="semester_3">
@@ -3554,8 +3649,13 @@ font: 700 13pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+color: rgba(0, 0, 0, 168);
+border:none;
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLineEdit" name="startDate_3">
@@ -3568,8 +3668,13 @@ font: 700 13pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+color: rgba(0, 0, 0, 168);
+border:none;
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
         <widget class="QLineEdit" name="endDate_4">
@@ -3582,8 +3687,13 @@ font: 700 13pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+color: rgba(0, 0, 0, 168);
+border:none;
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
          </property>
         </widget>
        </widget>

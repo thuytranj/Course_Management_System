@@ -315,6 +315,18 @@
 			null
 		],
 		[
+			"/Users/thuytran/Documents/Course_Management_System/schoolyear.h",
+			"MU",
+			"EWIEGA46WW/moc_schoolyear.cpp",
+			null
+		],
+		[
+			"/Users/thuytran/Documents/Course_Management_System/semester.h",
+			"MU",
+			"EWIEGA46WW/moc_semester.cpp",
+			null
+		],
+		[
 			"/Users/thuytran/Documents/Course_Management_System/student.h",
 			"MU",
 			"EWIEGA46WW/moc_student.cpp",
@@ -406,6 +418,16 @@
 		],
 		[
 			"/Users/thuytran/Documents/Course_Management_System/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/thuytran/Documents/Course_Management_System/schoolyear.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/thuytran/Documents/Course_Management_System/semester.cpp",
 			"MU",
 			null
 		],
