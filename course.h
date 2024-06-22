@@ -92,4 +92,5 @@ private:
 };
 
 QVector<QString> readCourseInSemester (const QString& path, QVector<course> &list);
+bool cmpIdStudent2 (QString a, QString b);
 #endif // COURSE_H

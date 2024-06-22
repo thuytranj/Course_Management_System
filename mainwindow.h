@@ -169,6 +169,34 @@ private slots:
 
     void on_newAccount_clicked();
 
+    void on_update_clicked();
+
+    void on_updateCourseInfo_clicked();
+
+    void on_addStudentToCourse_clicked();
+
+    void on_addStudent_clicked();
+
+    void on_removeStudent_clicked();
+
+    void on_removeAStudent_clicked();
+
+    void on_deleteCourse_clicked();
+
+    void on_uploadAndAddCourse_clicked();
+
+    void on_newSemester_2_clicked();
+
+    void on_newSemester_4_clicked();
+
+    void on_newSemester_clicked();
+
+    void on_newSchoolyear_clicked();
+
+    void on_uploadListStudent_clicked();
+
+    void on_newSchoolYear_clicked();
+
 private:
     Ui::MainWindow *ui;
     QVector<teacherInfo> TeacherInfo;

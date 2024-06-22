@@ -65,6 +65,7 @@ void readClasses(const QString &path, QVector<Class> &list)
             for (int j=0;j<cnt;j++) {
                 lineData=stream.readLine().trimmed();
                 data=lineData.split(";");
+                //qDebug()<<data.size();
                 student x;
                 x.setIdStudent(data.at(0));
                 x.setFirstName(data.at(1));

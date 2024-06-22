@@ -37,7 +37,7 @@ font: 14pt &quot;Arial&quot;;
 </string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QWidget" name="widget" native="true">
@@ -1399,14 +1399,14 @@ QPushButton:Hover
      <widget class="QStackedWidget" name="stackedWidget_2">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>150</x>
         <y>100</y>
         <width>661</width>
         <height>511</height>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>5</number>
       </property>
       <widget class="QWidget" name="page_6">
        <widget class="QTableWidget" name="table_class">
@@ -1784,6 +1784,338 @@ QHeaderView {
         </column>
        </widget>
       </widget>
+      <widget class="QWidget" name="page_26">
+       <widget class="QWidget" name="widget_21" native="true">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>100</y>
+          <width>551</width>
+          <height>201</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <widget class="QLabel" name="label_84">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>40</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ngày bắt đầu</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_85">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>40</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ngày kết thúc</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_86">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>110</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Loại học kì</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_87">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>110</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Năm học</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="startDate_4">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="noSemeter">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>130</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="schoolYear_8">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="endDate_3">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>60</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="newSemester_4">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>330</y>
+          <width>100</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Tạo học kì</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_27">
+       <widget class="QWidget" name="widget_22" native="true">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>90</y>
+          <width>601</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <widget class="QLineEdit" name="schoolyear">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>60</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_91">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>61</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Năm học</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="newSchoolyear">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>60</y>
+           <width>151</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Tạo năm học mới</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_92">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>130</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên lớp học</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="className_7">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>170</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="uploadListStudent">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>160</y>
+           <width>231</width>
+           <height>32</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Upload danh sách sinh viên</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="page_8">
@@ -1956,9 +2288,9 @@ QPushButton:Hover
        <property name="geometry">
         <rect>
          <x>80</x>
-         <y>10</y>
+         <y>20</y>
          <width>91</width>
-         <height>31</height>
+         <height>21</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1974,9 +2306,9 @@ border:none;
        <property name="geometry">
         <rect>
          <x>230</x>
-         <y>10</y>
+         <y>20</y>
          <width>51</width>
-         <height>31</height>
+         <height>21</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1992,9 +2324,9 @@ border:none;
        <property name="geometry">
         <rect>
          <x>360</x>
-         <y>10</y>
+         <y>20</y>
          <width>81</width>
-         <height>31</height>
+         <height>21</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -2009,10 +2341,10 @@ border:none;
       <widget class="QLineEdit" name="endDate_2">
        <property name="geometry">
         <rect>
-         <x>520</x>
-         <y>10</y>
+         <x>510</x>
+         <y>20</y>
          <width>91</width>
-         <height>31</height>
+         <height>21</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -2055,7 +2387,7 @@ QPushButton:Hover
       <widget class="QPushButton" name="newSemester_2">
        <property name="geometry">
         <rect>
-         <x>410</x>
+         <x>480</x>
          <y>50</y>
          <width>111</width>
          <height>32</height>
@@ -2151,7 +2483,7 @@ font: 700 13pt &quot;Arial&quot;;</string>
       <widget class="QPushButton" name="newSemester_3">
        <property name="geometry">
         <rect>
-         <x>210</x>
+         <x>240</x>
          <y>50</y>
          <width>131</width>
          <height>32</height>
@@ -2180,14 +2512,14 @@ QPushButton:Hover
      <widget class="QStackedWidget" name="stackedWidget_3">
       <property name="geometry">
        <rect>
-        <x>160</x>
-        <y>100</y>
-        <width>631</width>
+        <x>150</x>
+        <y>110</y>
+        <width>661</width>
         <height>501</height>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page_9">
        <widget class="QTableWidget" name="tableCourse">
@@ -2365,7 +2697,7 @@ QPushButton:Hover
          <rect>
           <x>260</x>
           <y>20</y>
-          <width>71</width>
+          <width>61</width>
           <height>31</height>
          </rect>
         </property>
@@ -2424,7 +2756,7 @@ background-color: rgb(255, 255, 255);</string>
        <widget class="QWidget" name="widget_11" native="true">
         <property name="geometry">
          <rect>
-          <x>20</x>
+          <x>40</x>
           <y>70</y>
           <width>551</width>
           <height>331</height>
@@ -2718,8 +3050,8 @@ background-color: rgb(241, 243, 243);
        <widget class="QPushButton" name="updateCourseInfo">
         <property name="geometry">
          <rect>
-          <x>300</x>
-          <y>430</y>
+          <x>260</x>
+          <y>440</y>
           <width>141</width>
           <height>31</height>
          </rect>
@@ -2748,8 +3080,8 @@ QPushButton:Hover
        <widget class="QPushButton" name="addStudent">
         <property name="geometry">
          <rect>
-          <x>470</x>
-          <y>430</y>
+          <x>410</x>
+          <y>440</y>
           <width>111</width>
           <height>31</height>
          </rect>
@@ -2778,7 +3110,7 @@ QPushButton:Hover
        <widget class="QPushButton" name="listStudentInClass_2">
         <property name="geometry">
          <rect>
-          <x>350</x>
+          <x>330</x>
           <y>20</y>
           <width>151</width>
           <height>32</height>
@@ -2808,8 +3140,8 @@ QPushButton:Hover
        <widget class="QPushButton" name="importFile">
         <property name="geometry">
          <rect>
-          <x>20</x>
-          <y>430</y>
+          <x>-10</x>
+          <y>440</y>
           <width>121</width>
           <height>32</height>
          </rect>
@@ -2838,9 +3170,9 @@ QPushButton:Hover
        <widget class="QPushButton" name="viewScoreBoard">
         <property name="geometry">
          <rect>
-          <x>160</x>
-          <y>430</y>
-          <width>131</width>
+          <x>120</x>
+          <y>440</y>
+          <width>121</width>
           <height>32</height>
          </rect>
         </property>
@@ -2863,6 +3195,66 @@ QPushButton:Hover
         </property>
         <property name="text">
          <string>Xem bảng điểm</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="removeAStudent">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>440</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Xoá sinh viên</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="deleteCourse">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>20</y>
+          <width>111</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Xoá khoá học</string>
         </property>
        </widget>
       </widget>
@@ -2925,6 +3317,1163 @@ QHeaderView {
         </column>
        </widget>
       </widget>
+      <widget class="QWidget" name="page_21">
+       <widget class="QWidget" name="widget_17" native="true">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>80</y>
+          <width>551</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <widget class="QLabel" name="label_56">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>40</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Mã học phần</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_57">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>40</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên giáo viên</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_58">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>110</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên học phần</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_59">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>110</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Số tín chỉ</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_60">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên lớp</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_61">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Thời gian</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="idCourse_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="courseName_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>130</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="className_5">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>200</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="time_2">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>200</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="credits_2">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="teacherName_2">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>60</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="update">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>390</y>
+          <width>101</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Cập nhật</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_22">
+       <widget class="QLabel" name="label_62">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 700 14pt &quot;Arial&quot;;
+color: rgb(27, 27, 27);</string>
+        </property>
+        <property name="text">
+         <string>Nhập MSSV</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="idStudent_3">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>40</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(27, 27, 27);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_18" native="true">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>110</y>
+          <width>551</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <widget class="QLabel" name="label_63">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>40</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Họ</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_64">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>40</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_65">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>110</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Giới tính</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_66">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>110</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ngày sinh</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_67">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Lớp</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_68">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>CCCD</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="firstName_4">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="gender_4">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>130</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="class_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>200</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="socialId_4">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>200</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="dateOfBirth_4">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lastName_4">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>60</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="addStudentToCourse">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>420</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Thêm vào khoá học</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_23">
+       <widget class="QPushButton" name="removeStudent">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>420</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Xoá ra khỏi khoá học</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="idStudent_4">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>40</y>
+          <width>111</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(27, 27, 27);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_69">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 700 14pt &quot;Arial&quot;;
+color: rgb(27, 27, 27);</string>
+        </property>
+        <property name="text">
+         <string>Nhập MSSV</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_19" native="true">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>110</y>
+          <width>551</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <widget class="QLabel" name="label_70">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>40</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Họ</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_71">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>40</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_72">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>110</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Giới tính</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_73">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>110</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Ngày sinh</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_74">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Lớp</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_75">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>CCCD</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="firstName_5">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="gender_5">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>130</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="class_3">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>200</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="socialId_5">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>200</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="dateOfBirth_5">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lastName_5">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>60</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_24">
+       <widget class="QWidget" name="widget_20" native="true">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>551</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;</string>
+        </property>
+        <widget class="QLabel" name="label_76">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>40</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Mã học phần</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_77">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>40</y>
+           <width>101</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên giáo viên</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_78">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>110</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên học phần</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_79">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>110</y>
+           <width>71</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Số tín chỉ</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_80">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tên lớp</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_81">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>180</y>
+           <width>58</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Thời gian</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="idCourse_3">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="courseName_3">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>130</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="className_6">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>200</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="time_3">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>200</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="credits_3">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>130</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="teacherName_3">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>60</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_82">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>250</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Số lượng sinh viên tối đa</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_83">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>250</y>
+           <width>161</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(41, 41, 41);
+font: 14pt &quot;Arial&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Tiết</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="maxStudents_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>270</y>
+           <width>191</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="session">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>270</y>
+           <width>181</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(55, 55, 55);
+background-color: rgb(241, 243, 243);
+</string>
+         </property>
+         <property name="readOnly">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="uploadAndAddCourse">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>390</y>
+          <width>141</width>
+          <height>32</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	color: rgb(27, 27, 27);
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}
+QPushButton:Hover
+{
+	border:none;
+	color:rgb(255, 255, 255);
+	background-color: rgb(0, 89, 255);
+	border-radius:5px;
+	font: 700 14pt &quot;Arial&quot;;
+	border-radius:10px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Upload danh sách ...</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_25"/>
      </widget>
     </widget>
     <widget class="QWidget" name="page_12">

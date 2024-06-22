@@ -97,7 +97,7 @@ void course::RemoveStudentbyID(const QString& ID)
             break;
         }
     }
-    listOfStudents.erase(listOfStudents.begin() + a);
+    if (a!=-1) listOfStudents.erase(listOfStudents.begin() + a);
 }
 
 void course::LoadStudentFromCsv(const QString &path) {
@@ -122,6 +122,7 @@ QVector<QString> readCourseInSemester(const QString &path, QVector<course> &list
         QTextStream stream(&ifile);
         QString lineData=stream.readLine().trimmed();
         QStringList data=lineData.split (";");
+        //qDebug()<<data.size();
         QVector<QString> semester;
         semester.append(data.at(0));
         semester.append(data.at(1));
@@ -130,6 +131,7 @@ QVector<QString> readCourseInSemester(const QString &path, QVector<course> &list
         while (stream.atEnd()==false){
             lineData=stream.readLine().trimmed();
             data=lineData.split (";");
+           // qDebug()<<data.size();
 
             if (data.size()>=9) {
                 course x;
@@ -157,4 +159,7 @@ QVector<QString> readCourseInSemester(const QString &path, QVector<course> &list
         return semester;
     }
     return QVector<QString> ();
+}
+bool cmpIdStudent2 (QString a, QString b) {
+    return a<b;
 }

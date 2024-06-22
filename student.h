@@ -8,7 +8,6 @@
 class student
 {
 public:
-    //student () {}
     student(const QString& _idStudent="", const QString& _firstName="", const QString& _lastName="", const QString& _gender="", const QString& _dateOfBirth="", const QString& _socialId="", const double& _gpa=0, account _studentAccount=account (), QVector<course> _listOfCourses=QVector<course> ()) {
         idStudent=_idStudent;
         firstName=_firstName;
@@ -57,6 +56,7 @@ public:
     account getStudentAccount();
 
     QVector<course> &getListOfCourses ();
+
 
 private:
     QString idStudent, firstName, lastName, gender, dateOfBirth, socialId;

@@ -1,9 +1,0 @@
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/Course_Management_System.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/list_install_components.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install/local.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/install/strip.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/Course_Management_System_autogen_timestamp_deps.dir
-/Users/thuytran/Documents/Course_Management_System/build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/Course_Management_System_autogen.dir
