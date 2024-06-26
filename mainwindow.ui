@@ -37,7 +37,7 @@ font: 14pt &quot;Arial&quot;;
 </string>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QWidget" name="widget" native="true">
@@ -65,8 +65,9 @@ border-radius:30px;
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 14pt &quot;Arial&quot;;
-color: rgb(0, 0, 0);</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Tên đăng nhập</string>
@@ -84,8 +85,10 @@ color: rgb(0, 0, 0);</string>
        <property name="styleSheet">
         <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(222, 233, 255);
-border-radius:20px;
-border-top-color: rgba(0, 0, 0, 252);</string>
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_3">
@@ -98,7 +101,9 @@ border-top-color: rgba(0, 0, 0, 252);</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(0, 0, 0);</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Mật khẩu</string>
@@ -115,8 +120,11 @@ border-top-color: rgba(0, 0, 0, 252);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(0, 0, 0);
-border-color: rgb(33, 98, 255);
-background-color: rgb(222, 233, 255);</string>
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="echoMode">
         <enum>QLineEdit::Password</enum>
@@ -128,13 +136,34 @@ background-color: rgb(222, 233, 255);</string>
          <x>210</x>
          <y>390</y>
          <width>131</width>
-         <height>41</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: 700 14pt &quot;Arial&quot;;
-background-color: rgb(0, 27, 206);</string>
+        <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 12px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
        </property>
        <property name="text">
         <string>Giáo viên</string>
@@ -146,13 +175,34 @@ background-color: rgb(0, 27, 206);</string>
          <x>50</x>
          <y>390</y>
          <width>131</width>
-         <height>41</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: 700 14pt &quot;Arial&quot;;
-background-color: rgb(0, 27, 206);</string>
+        <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 12px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
        </property>
        <property name="text">
         <string>Sinh viên</string>
@@ -164,13 +214,34 @@ background-color: rgb(0, 27, 206);</string>
          <x>50</x>
          <y>440</y>
          <width>291</width>
-         <height>41</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: 700 14pt &quot;Arial&quot;;
-background-color: rgb(0, 27, 206);</string>
+        <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 12px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
        </property>
        <property name="text">
         <string>Tạo tài khoản</string>
@@ -187,15 +258,16 @@ background-color: rgb(0, 27, 206);</string>
        </property>
        <property name="font">
         <font>
-         <family>Tahoma</family>
-         <pointsize>36</pointsize>
+         <family>UTM Futura Extra</family>
+         <pointsize>35</pointsize>
          <italic>false</italic>
-         <bold>true</bold>
+         <fontweight>ExtraBold</fontweight>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 700 36pt &quot;Tahoma&quot;;
-color: rgb(0, 0, 0);</string>
+        <string notr="true">font: 800 35pt &quot;UTM Futura Extra&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>ĐĂNG NHẬP</string>
@@ -237,15 +309,27 @@ color: rgb(0, 0, 0);</string>
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -265,15 +349,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -293,15 +389,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -321,15 +429,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -349,15 +469,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -392,15 +524,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -420,15 +564,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -448,15 +604,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -476,15 +644,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -504,15 +684,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -543,8 +735,9 @@ border-radius:10px;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Họ </string>
@@ -560,8 +753,9 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Tên</string>
@@ -577,8 +771,9 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Giới tính</string>
@@ -594,8 +789,9 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Ngày sinh</string>
@@ -611,8 +807,9 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>CCCD</string>
@@ -628,8 +825,9 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Email</string>
@@ -645,9 +843,12 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -663,9 +864,12 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -681,9 +885,12 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -699,9 +906,12 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -717,9 +927,12 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -735,9 +948,12 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -768,7 +984,7 @@ border-radius:10px;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="text">
         <string>Giáo viên</string>
@@ -785,7 +1001,7 @@ font: 14pt &quot;Arial&quot;;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="text">
         <string>HCMUS</string>
@@ -802,8 +1018,11 @@ font: 14pt &quot;Arial&quot;;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(0, 0, 0);
-font: 700 16pt &quot;Arial&quot;;
-border:none;</string>
+background-color: rgb(222, 233, 255);
+border-radius: 5px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
      </widget>
@@ -813,15 +1032,34 @@ border:none;</string>
         <x>190</x>
         <y>420</y>
         <width>111</width>
-        <height>41</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;</string>
+       <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 15px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 15px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 15px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
       </property>
       <property name="text">
        <string>Đổi mật khẩu</string>
@@ -854,8 +1092,9 @@ border-radius:30px;
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 14pt &quot;Arial&quot;;
-color: rgb(0, 0, 0);</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Mật khẩu mới</string>
@@ -873,8 +1112,10 @@ color: rgb(0, 0, 0);</string>
        <property name="styleSheet">
         <string notr="true">color: rgb(0, 0, 0);
 background-color: rgb(222, 233, 255);
-border-radius:20px;
-border-top-color: rgba(0, 0, 0, 252);</string>
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 16pt &quot;Josefin Sans Light&quot;;</string>
        </property>
        <property name="echoMode">
         <enum>QLineEdit::Password</enum>
@@ -890,7 +1131,9 @@ border-top-color: rgba(0, 0, 0, 252);</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(0, 0, 0);</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Xác nhận lại mật khẩu</string>
@@ -907,8 +1150,11 @@ border-top-color: rgba(0, 0, 0, 252);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(0, 0, 0);
-border-color: rgb(33, 98, 255);
-background-color: rgb(222, 233, 255);</string>
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 16pt &quot;Josefin Sans Light&quot;;</string>
        </property>
        <property name="echoMode">
         <enum>QLineEdit::Password</enum>
@@ -920,13 +1166,34 @@ background-color: rgb(222, 233, 255);</string>
          <x>220</x>
          <y>400</y>
          <width>121</width>
-         <height>41</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: 700 14pt &quot;Arial&quot;;
-background-color: rgb(0, 89, 255);</string>
+        <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 12px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
        </property>
        <property name="text">
         <string>Xác nhận</string>
@@ -943,18 +1210,19 @@ background-color: rgb(0, 89, 255);</string>
        </property>
        <property name="font">
         <font>
-         <family>Tahoma</family>
-         <pointsize>36</pointsize>
+         <family>UTM Futura Extra</family>
+         <pointsize>32</pointsize>
          <italic>false</italic>
-         <bold>true</bold>
+         <fontweight>ExtraBold</fontweight>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 700 36pt &quot;Tahoma&quot;;
-color: rgb(0, 0, 0);</string>
+        <string notr="true">font: 800 32pt &quot;UTM Futura Extra&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
-        <string>Đổi mật khẩu</string>
+        <string>ĐỔI MẬT KHẨU</string>
        </property>
       </widget>
       <widget class="QPushButton" name="back">
@@ -963,13 +1231,34 @@ color: rgb(0, 0, 0);</string>
          <x>50</x>
          <y>400</y>
          <width>121</width>
-         <height>41</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255);
-font: 700 14pt &quot;Arial&quot;;
-background-color: rgb(0, 89, 255);</string>
+        <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 12px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 12px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
        </property>
        <property name="text">
         <string>Trở lại</string>
@@ -1003,15 +1292,27 @@ background-color: rgb(0, 89, 255);</string>
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1031,15 +1332,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1059,15 +1372,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1087,15 +1412,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1115,15 +1452,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1155,6 +1504,7 @@ QPushButton:Hover
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
 </string>
        </property>
        <property name="readOnly">
@@ -1173,7 +1523,7 @@ border:none;
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
-</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -1191,7 +1541,7 @@ border:none;
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
-</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -1209,7 +1559,7 @@ border:none;
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
-</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -1220,7 +1570,7 @@ border:none;
         <rect>
          <x>10</x>
          <y>50</y>
-         <width>101</width>
+         <width>121</width>
          <height>32</height>
         </rect>
        </property>
@@ -1228,15 +1578,27 @@ border:none;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1246,9 +1608,9 @@ QPushButton:Hover
       <widget class="QPushButton" name="listStudentInClass">
        <property name="geometry">
         <rect>
-         <x>140</x>
+         <x>150</x>
          <y>50</y>
-         <width>131</width>
+         <width>161</width>
          <height>32</height>
         </rect>
        </property>
@@ -1256,15 +1618,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1274,7 +1648,7 @@ QPushButton:Hover
       <widget class="QPushButton" name="newSemester">
        <property name="geometry">
         <rect>
-         <x>300</x>
+         <x>350</x>
          <y>50</y>
          <width>131</width>
          <height>32</height>
@@ -1284,15 +1658,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1309,8 +1695,9 @@ QPushButton:Hover
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Năm học</string>
@@ -1326,8 +1713,9 @@ QPushButton:Hover
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Học kì</string>
@@ -1343,8 +1731,9 @@ font: 700 13pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Bắt đầu</string>
@@ -1360,8 +1749,9 @@ font: 700 13pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Kết thúc</string>
@@ -1370,9 +1760,9 @@ font: 700 13pt &quot;Arial&quot;;</string>
       <widget class="QPushButton" name="newSchoolYear">
        <property name="geometry">
         <rect>
-         <x>440</x>
+         <x>500</x>
          <y>50</y>
-         <width>131</width>
+         <width>141</width>
          <height>32</height>
         </rect>
        </property>
@@ -1380,15 +1770,27 @@ font: 700 13pt &quot;Arial&quot;;</string>
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -1406,27 +1808,26 @@ QPushButton:Hover
        </rect>
       </property>
       <property name="currentIndex">
-       <number>5</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="page_6">
        <widget class="QTableWidget" name="table_class">
         <property name="geometry">
          <rect>
-          <x>30</x>
+          <x>20</x>
           <y>20</y>
-          <width>561</width>
-          <height>401</height>
+          <width>621</width>
+          <height>461</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">QTableWidget {
-	color: rgba(0, 0, 0, 168);
-	font: 14pt &quot;Arial&quot;;
 	gridline-color:black;
+	color: rgb(22, 23, 23);
 	border:none;
 }
-QHeaderView{
-	font: 700 14pt &quot;Arial&quot;;
+QHeaderView {
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -1469,7 +1870,7 @@ QHeaderView{
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -1515,7 +1916,7 @@ QHeaderView {
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 14pt &quot;Arial&quot;;
+         <string notr="true">font: 300 14pt &quot;Josefin Sans Medium&quot;;
 color: rgb(27, 27, 27);</string>
         </property>
         <property name="text">
@@ -1533,7 +1934,8 @@ color: rgb(27, 27, 27);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(27, 27, 27);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
        </widget>
        <widget class="QPushButton" name="find">
@@ -1546,21 +1948,30 @@ background-color: rgb(255, 255, 255);</string>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Tìm</string>
@@ -1576,21 +1987,30 @@ QPushButton:Hover
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Bảng điểm</string>
@@ -1614,7 +2034,7 @@ QPushButton:Hover
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -1644,25 +2064,36 @@ QHeaderView {
         <property name="geometry">
          <rect>
           <x>520</x>
-          <y>460</y>
-          <width>111</width>
+          <y>470</y>
+          <width>121</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Xem chi tiết ... </string>
@@ -1680,8 +2111,8 @@ font: 700 13pt &quot;Arial&quot;;
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 14pt &quot;Arial&quot;;
-color: rgb(27, 27, 27);</string>
+         <string notr="true">	color: rgb(0, 0, 0);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
         <property name="text">
          <string>Nhập MSSV</string>
@@ -1713,18 +2144,19 @@ background-color: rgb(255, 255, 255);</string>
         <property name="styleSheet">
          <string notr="true">QPushButton{
 	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+	color: rgb(0, 0, 0);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 15px;
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 15px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }</string>
         </property>
         <property name="text">
@@ -1747,7 +2179,7 @@ QPushButton:Hover
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -1808,8 +2240,9 @@ border-radius:10px;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Ngày bắt đầu</string>
@@ -1825,8 +2258,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Ngày kết thúc</string>
@@ -1842,8 +2276,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Loại học kì</string>
@@ -1859,8 +2294,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Năm học</string>
@@ -1876,9 +2312,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -1894,9 +2333,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -1912,9 +2354,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -1930,9 +2375,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -1949,21 +2397,30 @@ background-color: rgb(241, 243, 243);
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Tạo học kì</string>
@@ -1976,7 +2433,7 @@ QPushButton:Hover
          <rect>
           <x>20</x>
           <y>90</y>
-          <width>601</width>
+          <width>611</width>
           <height>261</height>
          </rect>
         </property>
@@ -1987,16 +2444,19 @@ border-radius:10px;</string>
         <widget class="QLineEdit" name="schoolyear">
          <property name="geometry">
           <rect>
-           <x>20</x>
+           <x>50</x>
            <y>60</y>
            <width>191</width>
            <height>31</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -2005,15 +2465,16 @@ background-color: rgb(241, 243, 243);
         <widget class="QLabel" name="label_91">
          <property name="geometry">
           <rect>
-           <x>20</x>
+           <x>50</x>
            <y>20</y>
            <width>61</width>
            <height>31</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Năm học</string>
@@ -2022,28 +2483,37 @@ font: 14pt &quot;Arial&quot;;</string>
         <widget class="QPushButton" name="newSchoolyear">
          <property name="geometry">
           <rect>
-           <x>300</x>
+           <x>350</x>
            <y>60</y>
            <width>151</width>
            <height>32</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+          <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
          </property>
          <property name="text">
           <string>Tạo năm học mới</string>
@@ -2052,15 +2522,16 @@ QPushButton:Hover
         <widget class="QLabel" name="label_92">
          <property name="geometry">
           <rect>
-           <x>20</x>
+           <x>50</x>
            <y>130</y>
            <width>81</width>
            <height>31</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên lớp học</string>
@@ -2069,16 +2540,19 @@ font: 14pt &quot;Arial&quot;;</string>
         <widget class="QLineEdit" name="className_7">
          <property name="geometry">
           <rect>
-           <x>20</x>
+           <x>50</x>
            <y>170</y>
            <width>191</width>
            <height>31</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -2087,28 +2561,37 @@ background-color: rgb(241, 243, 243);
         <widget class="QPushButton" name="uploadListStudent">
          <property name="geometry">
           <rect>
-           <x>270</x>
+           <x>310</x>
            <y>160</y>
            <width>231</width>
            <height>32</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+          <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
          </property>
          <property name="text">
           <string>Upload danh sách sinh viên</string>
@@ -2144,15 +2627,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2172,15 +2667,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2200,15 +2707,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2228,15 +2747,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2256,15 +2787,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2296,6 +2839,7 @@ QPushButton:Hover
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
 </string>
        </property>
        <property name="readOnly">
@@ -2314,7 +2858,7 @@ border:none;
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
-</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -2332,7 +2876,7 @@ border:none;
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
-</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -2350,7 +2894,7 @@ border:none;
        <property name="styleSheet">
         <string notr="true">color: rgba(0, 0, 0, 168);
 border:none;
-</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -2369,15 +2913,27 @@ border:none;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2397,15 +2953,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2422,8 +2990,9 @@ QPushButton:Hover
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Năm học</string>
@@ -2439,8 +3008,9 @@ QPushButton:Hover
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Học kì</string>
@@ -2456,8 +3026,9 @@ font: 700 13pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Bắt đầu</string>
@@ -2473,8 +3044,9 @@ font: 700 13pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+        <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
        </property>
        <property name="text">
         <string>Kết thúc</string>
@@ -2493,15 +3065,27 @@ font: 700 13pt &quot;Arial&quot;;</string>
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -2512,20 +3096,20 @@ QPushButton:Hover
      <widget class="QStackedWidget" name="stackedWidget_3">
       <property name="geometry">
        <rect>
-        <x>150</x>
+        <x>140</x>
         <y>110</y>
-        <width>661</width>
+        <width>671</width>
         <height>501</height>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>5</number>
       </property>
       <widget class="QWidget" name="page_9">
        <widget class="QTableWidget" name="tableCourse">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>30</x>
           <y>20</y>
           <width>611</width>
           <height>451</height>
@@ -2538,7 +3122,7 @@ QPushButton:Hover
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -2579,7 +3163,7 @@ QHeaderView {
        <widget class="QTableWidget" name="tableStudenInCourse">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>20</x>
           <y>40</y>
           <width>631</width>
           <height>451</height>
@@ -2592,7 +3176,7 @@ QHeaderView {
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -2629,7 +3213,7 @@ QHeaderView {
        <widget class="QLineEdit" name="className_2">
         <property name="geometry">
          <rect>
-          <x>60</x>
+          <x>100</x>
           <y>0</y>
           <width>113</width>
           <height>31</height>
@@ -2637,7 +3221,8 @@ QHeaderView {
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(27, 27, 27);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
         <property name="readOnly">
          <bool>true</bool>
@@ -2646,14 +3231,14 @@ background-color: rgb(255, 255, 255);</string>
        <widget class="QLabel" name="label_24">
         <property name="geometry">
          <rect>
-          <x>10</x>
+          <x>30</x>
           <y>0</y>
           <width>41</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 14pt &quot;Arial&quot;;
+         <string notr="true">font: 300 14pt &quot;Josefin Sans Medium&quot;;
 color: rgb(27, 27, 27);</string>
         </property>
         <property name="text">
@@ -2670,21 +3255,30 @@ color: rgb(27, 27, 27);</string>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string> Xuất file</string>
@@ -2702,21 +3296,30 @@ QPushButton:Hover
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Tìm</string>
@@ -2732,8 +3335,8 @@ QPushButton:Hover
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 14pt &quot;Arial&quot;;
-color: rgb(27, 27, 27);</string>
+         <string notr="true">	color: rgb(0, 0, 0);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
         <property name="text">
          <string>Nhập tên lớp</string>
@@ -2750,16 +3353,17 @@ color: rgb(27, 27, 27);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(27, 27, 27);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
        </widget>
        <widget class="QWidget" name="widget_11" native="true">
         <property name="geometry">
          <rect>
-          <x>40</x>
+          <x>50</x>
           <y>70</y>
-          <width>551</width>
-          <height>331</height>
+          <width>541</width>
+          <height>341</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -2776,8 +3380,9 @@ border-radius:10px;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Mã học phần</string>
@@ -2793,8 +3398,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên giáo viên</string>
@@ -2810,8 +3416,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên học phần</string>
@@ -2827,8 +3434,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Số tín chỉ</string>
@@ -2844,8 +3452,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên lớp</string>
@@ -2861,8 +3470,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Thời gian</string>
@@ -2878,9 +3488,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2896,9 +3509,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2914,9 +3530,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2932,9 +3551,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2950,9 +3572,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2968,9 +3593,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -2986,8 +3614,9 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Số lượng sinh viên tối đa</string>
@@ -3003,8 +3632,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Số sinh viên đăng kí</string>
@@ -3014,15 +3644,18 @@ font: 14pt &quot;Arial&quot;;</string>
          <property name="geometry">
           <rect>
            <x>30</x>
-           <y>270</y>
+           <y>280</y>
            <width>191</width>
            <height>31</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -3032,15 +3665,18 @@ background-color: rgb(241, 243, 243);
          <property name="geometry">
           <rect>
            <x>300</x>
-           <y>270</y>
+           <y>280</y>
            <width>181</width>
            <height>31</height>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -3050,28 +3686,37 @@ background-color: rgb(241, 243, 243);
        <widget class="QPushButton" name="updateCourseInfo">
         <property name="geometry">
          <rect>
-          <x>260</x>
+          <x>270</x>
           <y>440</y>
           <width>141</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Cập nhật thông tin</string>
@@ -3080,28 +3725,37 @@ QPushButton:Hover
        <widget class="QPushButton" name="addStudent">
         <property name="geometry">
          <rect>
-          <x>410</x>
+          <x>420</x>
           <y>440</y>
-          <width>111</width>
+          <width>121</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Thêm sinh viên</string>
@@ -3110,28 +3764,37 @@ QPushButton:Hover
        <widget class="QPushButton" name="listStudentInClass_2">
         <property name="geometry">
          <rect>
-          <x>330</x>
+          <x>340</x>
           <y>20</y>
           <width>151</width>
           <height>32</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Danh sách sinh viên</string>
@@ -3140,28 +3803,37 @@ QPushButton:Hover
        <widget class="QPushButton" name="importFile">
         <property name="geometry">
          <rect>
-          <x>-10</x>
+          <x>20</x>
           <y>440</y>
-          <width>121</width>
+          <width>111</width>
           <height>32</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Cập nhật điểm</string>
@@ -3170,28 +3842,37 @@ QPushButton:Hover
        <widget class="QPushButton" name="viewScoreBoard">
         <property name="geometry">
          <rect>
-          <x>120</x>
+          <x>140</x>
           <y>440</y>
           <width>121</width>
           <height>32</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Xem bảng điểm</string>
@@ -3200,28 +3881,37 @@ QPushButton:Hover
        <widget class="QPushButton" name="removeAStudent">
         <property name="geometry">
          <rect>
-          <x>530</x>
+          <x>550</x>
           <y>440</y>
           <width>111</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Xoá sinh viên</string>
@@ -3230,28 +3920,37 @@ QPushButton:Hover
        <widget class="QPushButton" name="deleteCourse">
         <property name="geometry">
          <rect>
-          <x>500</x>
+          <x>510</x>
           <y>20</y>
           <width>111</width>
           <height>32</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Xoá khoá học</string>
@@ -3264,7 +3963,7 @@ QPushButton:Hover
          <rect>
           <x>15</x>
           <y>21</y>
-          <width>611</width>
+          <width>631</width>
           <height>461</height>
          </rect>
         </property>
@@ -3275,7 +3974,7 @@ QPushButton:Hover
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -3341,8 +4040,9 @@ border-radius:10px;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Mã học phần</string>
@@ -3358,8 +4058,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên giáo viên</string>
@@ -3375,8 +4076,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên học phần</string>
@@ -3392,8 +4094,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Số tín chỉ</string>
@@ -3409,8 +4112,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên lớp</string>
@@ -3426,8 +4130,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Thời gian</string>
@@ -3443,9 +4148,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3461,9 +4169,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3479,9 +4190,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3497,9 +4211,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3515,9 +4232,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3533,9 +4253,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3552,21 +4275,30 @@ background-color: rgb(241, 243, 243);
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Cập nhật</string>
@@ -3584,8 +4316,8 @@ QPushButton:Hover
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 14pt &quot;Arial&quot;;
-color: rgb(27, 27, 27);</string>
+         <string notr="true">	color: rgb(0, 0, 0);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
         <property name="text">
          <string>Nhập MSSV</string>
@@ -3602,7 +4334,8 @@ color: rgb(27, 27, 27);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(27, 27, 27);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
        </widget>
        <widget class="QWidget" name="widget_18" native="true">
@@ -3616,7 +4349,8 @@ background-color: rgb(255, 255, 255);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:10px;</string>
+border-radius:10px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
         <widget class="QLabel" name="label_63">
          <property name="geometry">
@@ -3628,8 +4362,9 @@ border-radius:10px;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Họ</string>
@@ -3645,8 +4380,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên</string>
@@ -3662,8 +4398,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Giới tính</string>
@@ -3679,8 +4416,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Ngày sinh</string>
@@ -3696,8 +4434,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Lớp</string>
@@ -3713,8 +4452,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>CCCD</string>
@@ -3730,9 +4470,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3748,9 +4491,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3766,9 +4512,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3784,9 +4533,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans SemiBold&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3802,9 +4554,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3820,9 +4575,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -3832,28 +4590,37 @@ background-color: rgb(241, 243, 243);
        <widget class="QPushButton" name="addStudentToCourse">
         <property name="geometry">
          <rect>
-          <x>440</x>
+          <x>430</x>
           <y>420</y>
-          <width>151</width>
+          <width>161</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Thêm vào khoá học</string>
@@ -3864,28 +4631,37 @@ QPushButton:Hover
        <widget class="QPushButton" name="removeStudent">
         <property name="geometry">
          <rect>
-          <x>450</x>
+          <x>430</x>
           <y>420</y>
-          <width>151</width>
+          <width>171</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Xoá ra khỏi khoá học</string>
@@ -3902,7 +4678,8 @@ QPushButton:Hover
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(27, 27, 27);
-background-color: rgb(255, 255, 255);</string>
+background-color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_69">
@@ -3915,8 +4692,8 @@ background-color: rgb(255, 255, 255);</string>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 14pt &quot;Arial&quot;;
-color: rgb(27, 27, 27);</string>
+         <string notr="true">	color: rgb(0, 0, 0);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
         <property name="text">
          <string>Nhập MSSV</string>
@@ -3945,8 +4722,9 @@ border-radius:10px;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Họ</string>
@@ -3962,8 +4740,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên</string>
@@ -3979,8 +4758,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Giới tính</string>
@@ -3996,8 +4776,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Ngày sinh</string>
@@ -4013,8 +4794,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Lớp</string>
@@ -4030,8 +4812,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>CCCD</string>
@@ -4047,9 +4830,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans SemiBold&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4065,9 +4851,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans SemiBold&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4083,9 +4872,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans SemiBold&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4101,9 +4893,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans SemiBold&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4119,9 +4914,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans SemiBold&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4137,9 +4935,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans SemiBold&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4171,8 +4972,9 @@ border-radius:10px;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Mã học phần</string>
@@ -4188,8 +4990,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên giáo viên</string>
@@ -4205,8 +5008,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên học phần</string>
@@ -4222,8 +5026,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Số tín chỉ</string>
@@ -4239,8 +5044,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên lớp</string>
@@ -4256,8 +5062,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Thời gian</string>
@@ -4273,9 +5080,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4291,9 +5101,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4309,9 +5122,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4327,9 +5143,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4345,9 +5164,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4363,9 +5185,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4381,8 +5206,9 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Số lượng sinh viên tối đa</string>
@@ -4398,8 +5224,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tiết</string>
@@ -4415,9 +5242,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4433,9 +5263,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>false</bool>
@@ -4445,28 +5278,37 @@ background-color: rgb(241, 243, 243);
        <widget class="QPushButton" name="uploadAndAddCourse">
         <property name="geometry">
          <rect>
-          <x>460</x>
+          <x>440</x>
           <y>390</y>
-          <width>141</width>
+          <width>161</width>
           <height>32</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton{
-	border:none;
-	color: rgb(27, 27, 27);
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
 }
 QPushButton:Hover
 {
-	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 14pt &quot;Arial&quot;;
-	border-radius:10px;
-}</string>
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Upload danh sách ...</string>
@@ -4502,15 +5344,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -4522,7 +5376,7 @@ font: 700 13pt &quot;Arial&quot;;
         <rect>
          <x>19</x>
          <y>210</y>
-         <width>91</width>
+         <width>101</width>
          <height>32</height>
         </rect>
        </property>
@@ -4530,15 +5384,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -4550,7 +5416,7 @@ QPushButton:Hover
         <rect>
          <x>19</x>
          <y>540</y>
-         <width>91</width>
+         <width>101</width>
          <height>32</height>
         </rect>
        </property>
@@ -4558,15 +5424,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -4576,9 +5454,9 @@ QPushButton:Hover
       <widget class="QPushButton" name="account_Student">
        <property name="geometry">
         <rect>
-         <x>19</x>
+         <x>20</x>
          <y>130</y>
-         <width>91</width>
+         <width>101</width>
          <height>32</height>
         </rect>
        </property>
@@ -4586,15 +5464,27 @@ QPushButton:Hover
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -4604,9 +5494,9 @@ font: 700 13pt &quot;Arial&quot;;
       <widget class="QPushButton" name="home_5">
        <property name="geometry">
         <rect>
-         <x>19</x>
+         <x>20</x>
          <y>90</y>
-         <width>91</width>
+         <width>101</width>
          <height>32</height>
         </rect>
        </property>
@@ -4614,15 +5504,27 @@ font: 700 13pt &quot;Arial&quot;;
         <string notr="true">QPushButton{
 	border:none;
 	color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 13px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
 }
 QPushButton:Hover
 {
 	border:none;
 	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;
+	font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+border-radius: 13px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
 }</string>
        </property>
        <property name="text">
@@ -4633,9 +5535,9 @@ QPushButton:Hover
      <widget class="QStackedWidget" name="stackedWidget_4">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>140</x>
         <y>-10</y>
-        <width>641</width>
+        <width>661</width>
         <height>651</height>
        </rect>
       </property>
@@ -4664,8 +5566,9 @@ border-radius:10px;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Họ </string>
@@ -4681,8 +5584,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Tên</string>
@@ -4698,8 +5602,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Giới tính</string>
@@ -4715,8 +5620,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>Ngày sinh</string>
@@ -4732,8 +5638,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>CCCD</string>
@@ -4749,8 +5656,9 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+          <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
          </property>
          <property name="text">
           <string>MSSV</string>
@@ -4766,9 +5674,12 @@ font: 14pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -4784,9 +5695,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -4802,9 +5716,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -4820,9 +5737,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -4838,9 +5758,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -4856,9 +5779,12 @@ background-color: rgb(241, 243, 243);
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="readOnly">
           <bool>true</bool>
@@ -4889,7 +5815,7 @@ border-radius:10px;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="text">
           <string>Sinh viên</string>
@@ -4906,7 +5832,7 @@ font: 14pt &quot;Arial&quot;;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
          </property>
          <property name="text">
           <string>HCMUS</string>
@@ -4923,8 +5849,11 @@ font: 14pt &quot;Arial&quot;;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color: rgb(0, 0, 0);
-font: 700 16pt &quot;Arial&quot;;
-border:none;</string>
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 10px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;</string>
          </property>
         </widget>
        </widget>
@@ -4932,17 +5861,36 @@ border:none;</string>
         <property name="geometry">
          <rect>
           <x>30</x>
-          <y>440</y>
+          <y>450</y>
           <width>111</width>
-          <height>41</height>
+          <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:5px;
-	font: 700 13pt &quot;Arial&quot;;</string>
+         <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 15px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 15px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 15px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
         </property>
         <property name="text">
          <string>Đổi mật khẩu</string>
@@ -4966,7 +5914,7 @@ border:none;</string>
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -5007,7 +5955,7 @@ QHeaderView {
        <widget class="QTableWidget" name="scoreboard_2">
         <property name="geometry">
          <rect>
-          <x>0</x>
+          <x>20</x>
           <y>160</y>
           <width>621</width>
           <height>461</height>
@@ -5020,7 +5968,7 @@ QHeaderView {
 	border:none;
 }
 QHeaderView {
-	font: 700 14pt &quot;Arial&quot;;
+font: 300 15pt &quot;Josefin Sans Medium&quot;;
 	color: rgb(27, 27, 27);
 	gridline-color:black;
 }</string>
@@ -5059,15 +6007,15 @@ QHeaderView {
        <widget class="QLabel" name="label_47">
         <property name="geometry">
          <rect>
-          <x>10</x>
+          <x>20</x>
           <y>120</y>
-          <width>111</width>
+          <width>121</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 14pt &quot;Arial&quot;;
-color: rgb(27, 27, 27);</string>
+         <string notr="true">	color: rgb(0, 0, 0);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
         <property name="text">
          <string>Điểm trung bình</string>
@@ -5076,25 +6024,24 @@ color: rgb(27, 27, 27);</string>
        <widget class="QLineEdit" name="gpa">
         <property name="geometry">
          <rect>
-          <x>130</x>
+          <x>170</x>
           <y>120</y>
           <width>91</width>
           <height>31</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 700 13pt &quot;Arial&quot;;
-color: rgba(0, 0, 0, 168);
-border:none;
-</string>
+         <string notr="true">color: rgb(27, 27, 27);
+background-color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;</string>
         </property>
        </widget>
        <widget class="QWidget" name="widget_15" native="true">
         <property name="geometry">
          <rect>
-          <x>10</x>
+          <x>0</x>
           <y>30</y>
-          <width>761</width>
+          <width>771</width>
           <height>81</height>
          </rect>
         </property>
@@ -5111,8 +6058,9 @@ border:none;
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-	font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
          </property>
          <property name="text">
           <string>Năm học</string>
@@ -5128,8 +6076,9 @@ border:none;
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
          </property>
          <property name="text">
           <string>Học kì</string>
@@ -5145,8 +6094,9 @@ font: 700 13pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
          </property>
          <property name="text">
           <string>Bắt đầu</string>
@@ -5162,8 +6112,9 @@ font: 700 13pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgba(0, 0, 0, 168);
-font: 700 13pt &quot;Arial&quot;;</string>
+          <string notr="true">	color: rgba(0, 0, 0, 168);
+	font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border: none;</string>
          </property>
          <property name="text">
           <string>Kết thúc</string>
@@ -5179,7 +6130,7 @@ font: 700 13pt &quot;Arial&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+          <string notr="true">font: 300 14pt &quot;Josefin Sans Medium&quot;;
 color: rgba(0, 0, 0, 168);
 border:none;
 </string>
@@ -5198,7 +6149,7 @@ border:none;
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+          <string notr="true">font: 300 14pt &quot;Josefin Sans Medium&quot;;
 color: rgba(0, 0, 0, 168);
 border:none;
 </string>
@@ -5217,7 +6168,7 @@ border:none;
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+          <string notr="true">font: 300 14pt &quot;Josefin Sans Medium&quot;;
 color: rgba(0, 0, 0, 168);
 border:none;
 </string>
@@ -5236,7 +6187,7 @@ border:none;
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">font: 700 13pt &quot;Arial&quot;;
+          <string notr="true">font: 300 14pt &quot;Josefin Sans Medium&quot;;
 color: rgba(0, 0, 0, 168);
 border:none;
 </string>
@@ -5273,9 +6224,12 @@ border-radius:10px;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_48">
@@ -5288,8 +6242,9 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Họ</string>
@@ -5305,9 +6260,12 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_49">
@@ -5320,8 +6278,9 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>CCCD</string>
@@ -5337,9 +6296,12 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_50">
@@ -5352,8 +6314,9 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Tên</string>
@@ -5369,9 +6332,12 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_51">
@@ -5384,8 +6350,9 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Email</string>
@@ -5401,23 +6368,27 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_52">
        <property name="geometry">
         <rect>
          <x>30</x>
-         <y>220</y>
+         <y>210</y>
          <width>91</width>
          <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Giới tính</string>
@@ -5433,23 +6404,27 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_53">
        <property name="geometry">
         <rect>
          <x>380</x>
-         <y>220</y>
+         <y>210</y>
          <width>111</width>
          <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Tên đăng nhập</string>
@@ -5465,9 +6440,12 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_54">
@@ -5480,8 +6458,9 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Ngày sinh</string>
@@ -5497,9 +6476,12 @@ font: 14pt &quot;Arial&quot;;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(55, 55, 55);
-background-color: rgb(241, 243, 243);
-</string>
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(222, 233, 255);
+border-radius: 13px;
+border-top-color: rgba(0, 0, 0, 252);
+padding: 3px;
+font: 500 14pt &quot;Josefin Sans Medium&quot;;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_55">
@@ -5512,8 +6494,9 @@ background-color: rgb(241, 243, 243);
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(41, 41, 41);
-font: 14pt &quot;Arial&quot;;</string>
+        <string notr="true">font: 500 14pt &quot;Josefin Sans Medium&quot;;
+color: rgb(1, 24, 156);
+border: none;</string>
        </property>
        <property name="text">
         <string>Mật khẩu</string>
@@ -5524,17 +6507,36 @@ font: 14pt &quot;Arial&quot;;</string>
       <property name="geometry">
        <rect>
         <x>600</x>
-        <y>550</y>
+        <y>560</y>
         <width>141</width>
-        <height>41</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">	border:none;
-	color:rgb(255, 255, 255);
-	background-color: rgb(0, 89, 255);
-	border-radius:10px;
-	font: 700 13pt &quot;Arial&quot;;</string>
+       <string notr="true">QPushButton
+{
+color: rgb(255, 255, 255);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 15px;
+background-color: rgb(1, 24, 156);
+padding: 5px;
+}
+QPushButton:Hover
+{
+color: rgb(1, 24, 156);
+font: 300 14pt &quot;Josefin Sans SemiBold&quot;;
+background-color: rgb(222, 233, 255);
+border-radius: 15px;
+}
+QPushButton:Pressed
+{
+color: rgb(0,0,0);
+font: 300 14pt &quot;Josefin Sans Medium&quot;;
+border-radius: 15px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+}
+</string>
       </property>
       <property name="text">
        <string>Tạo tài khoản</string>

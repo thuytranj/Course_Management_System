@@ -135,7 +135,7 @@ double MainWindow::gpa(student x)
     int cnt=0;
     QVector<course> list=x.getListOfCourses();
     for (int i=0;i<list.size();i++) {
-        sum+=list[i].getFinal()*list[i].getNumOfCredits();
+        sum+=list[i].getTotal()*list[i].getNumOfCredits();
         cnt+=list[i].getNumOfCredits();
     }
     return sum/cnt;
@@ -281,8 +281,8 @@ void MainWindow::on_schoolYear_clicked()
     ui->startDate->setText(StartDate);
     ui->endDate->setText(EndDate);
     QVector<Class> lstClass=getListOfClass();
-    ui->table_class->setColumnWidth(0, 250);
-    ui->table_class->setColumnWidth(1, 250);
+    ui->table_class->setColumnWidth(0, 300);
+    ui->table_class->setColumnWidth(1, 300);
     ui->table_class->setRowCount(lstClass.size());
     for (int i=0;i<lstClass.size();i++) {
         ui->table_class->setItem(i, 0, new QTableWidgetItem(lstClass[i].getClassName()));
@@ -579,7 +579,7 @@ void MainWindow::on_schedule_clicked()
         ui->schedule_2->setItem(i, 2, new QTableWidgetItem(list[i].getClassName()));
         ui->schedule_2->setItem(i, 3, new QTableWidgetItem(list[i].getTeacher()));
         ui->schedule_2->setItem(i, 4, new QTableWidgetItem(QString::number(list[i].getNumOfCredits())));
-        ui->schedule_2->setItem(i, 5, new QTableWidgetItem(list[i].getDayOfWeek() + list[i].getSession()));
+        ui->schedule_2->setItem(i, 5, new QTableWidgetItem(list[i].getDayOfWeek() + " " + list[i].getSession()));
     }
 }
 
